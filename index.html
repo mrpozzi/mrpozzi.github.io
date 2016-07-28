@@ -1,38 +1,38 @@
-<!doctype html>
-<head>
-  <meta charset="utf-8">
-  <title>Your Site</title>
-  <link rel="stylesheet" href="/mrpozzi.github.io/static/css/style.css">
-  
-
-</head>
-<body class="box">
-
-<nav class="nav-menu">
-    <ul>
-        <li><a href="/mrpozzi.github.io/">Home</a></li>
-        <li><a href="https://github.com/sloria/flask-ghpages-example">Source</a></li>
-    </ul>
-</nav>
-
-<div class="container">
-
-  <div class="content" role="main">
-    
-
-<h2>Posts</h2>
-
-<ul class="page-list">
-  
-      <li><a href="/mrpozzi.github.io/pagina/">
-          Bacon Ipsum
-      </a>- 2014-04-21 12:00:00</li>
-  
-</ul>
-
+---
+layout: default
+---
+<header id="home-header" style="background-image: url({{ site.baseurl }}{{ site.sidebar_image }});">
+    <a href="https://github.com/mrpozzi">
+    <img border="0" alt="mrpozzi" src="/images/GitHub-Mark-32px.png">
+  </a>
+  <a href="https://www.linkedin.com/in/lucaepozzi">
+    <img border="0" alt="lucaepozzi" src="/images/In-Black-34px-R.png">
+  </a>
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <ul class="meta">
+      <li>
+        <span>
+          {{ site.tagline }}
+        </span>
+      </li>
   </div>
 
-</div><!-- end container -->
-<script src="/mrpozzi.github.io/static/js/script.js"></script>
-</body>
-</html>
+
+
+</header>
+<article>
+  <div class="container">
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+          <span class="meta">
+            {{ post.date | date_to_string }}
+          </span>
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
