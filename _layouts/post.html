@@ -29,14 +29,12 @@ layout: default
     </div>
     <ul class="pagination">
       {% if page.previous.url %}
-        <li class="previous">
+      <li class="previous">
           <a href="{{ site.baseurl }}{{ page.previous.url }}">
             Previous
           </a>
         </li>
       {% endif %}
-      <li >
-      </li>
       {% if page.next.url %}
       <li class="next">
         <a href="{{ site.baseurl }}{{ page.next.url }}">
