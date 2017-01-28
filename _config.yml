@@ -5,6 +5,6 @@ tagline: 'Data Science: Tales from the Trenches' # A brief tagline for your site
 sidebar_image: /images/cover.jpg
 
 # Build settings
-markdown: redcarpet
+kramdown: redcarpet
 highlighter: pygments
 baseurl:
