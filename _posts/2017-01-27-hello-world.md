@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wake Up World!"
-date: 2016-07-23 16:30:00
+date: 2017-01-27 17:30:00
 categories: general
 featured_image: /images/cover.jpg
 ---
@@ -25,5 +25,8 @@ I'm going to be writing about:
 - Clustering
 - Bayesian Statistics
 - Computational Statistics
+- Swimming
+- Music
+
 
 and in general anything related to Data Science/Machine Learning/Statistics that bears some importance in serving some applied problem.
