@@ -8,5 +8,10 @@ featured_image: /images/cover.jpg
 
 
 
+What's the difference?
+
 
 ![png](/images/pier.png)
+
+
+[code](https://github.com/mrpozzi/mrpozzi.github.io/blob/master/notebooks/PiersFunFacts.ipynb)
