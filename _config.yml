@@ -7,5 +7,5 @@ sidebar_image: /images/cover.jpg
 # Build settings
 markdown: kramdown
 #kramdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 baseurl:
