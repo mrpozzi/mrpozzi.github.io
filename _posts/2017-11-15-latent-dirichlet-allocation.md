@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Latent Dirichlet Allocation"
+title: "Inside the Black Box"
 date: 2018-01-06 8:30:00
 categories: nlp
 featured_image: /images/cover.jpg
@@ -8,7 +8,7 @@ featured_image: /images/cover.jpg
 
 Latent Dirichlet Allocation
 
-## Inside the Black Box
+## What's the Buzz?
 
 Natural Language Processing (NLP) has become one of the most popular areas in Machine Learning.
 
