@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Fun Fact #1: Pier, Wharf, Jetty or Quay?"
-date: 2017-11-11 8:30:00
+date: 2017-11-13 8:30:00
 categories: fun-fact
-featured_image: /images/cover.jpg
+description: Little known difference between coastal landmarks.
+image: /images/pier.png
+image-sm: /images/pier.png
 ---
-
 
 
 What's the difference?

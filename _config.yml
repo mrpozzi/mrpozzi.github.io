@@ -1,11 +1,33 @@
 # Site settings
+email: poz.luc@gmail.com
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics: 
+
+# Site settings
 title: 'Drowning in Data'
-# Your Title
-tagline: 'Data Science: Tales from the Trenches' # A brief tagline for your site
-sidebar_image: /images/cover.jpg
+description: 'Data Science: Tales from the Trenches' # A brief tagline for your site
+url: ""
+twitter_username: 
+
+# Profile settings
+name: Luca E. Pozzi
+profile_img: 
+profile: blah
+social:
+  github: https://github.com/mrpozzi
+  linkedin: https://www.linkedin.com/in/lucaepozzi/
 
 # Build settings
+exclude: ["_notebooks", "README.md"]
 markdown: kramdown
-#kramdown: redcarpet
 highlighter: rouge
-baseurl:
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+plugins: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]

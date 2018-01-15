@@ -3,10 +3,12 @@ layout: post
 title: "Wake Up World!"
 date: 2017-01-27 17:30:00
 categories: general
-featured_image: /images/cover.jpg
+description: Hello World!
+image: /images/cover.jpg
+image-sm: /images/cover.jpg
 ---
 
-Hello World!
+
 
 ## Manifesto
 

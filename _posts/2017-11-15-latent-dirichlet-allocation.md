@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Inside the Black Box"
-date: 2018-01-06 8:30:00
+date: 2017-11-15 8:30:00
 categories: nlp
-featured_image: /images/cover.jpg
+description: Intuition behind the Latent Dirichlet Allocation.
+image: /images/lda_graphical_model.png
+image-sm: /images/lda_graphical_model.png
 ---
 
-Latent Dirichlet Allocation
 
 ## What's the Buzz?
 
@@ -27,8 +28,8 @@ LDA describes the generative model for the words in a corpus of documents, brief
 
 * For each document sample the topic distribution \\(\theta\sim\\)Dirichlet\\((\alpha)\\) 
 * For each word \\(w\_n, n=1,...,N\_{d}\\) with \\(N\_d\\) number of words in document \\(d\\):
-	* sample a topic \\(z\_n\sim\\)Multinomial(\\(\theta\\))
-	* given the above topic sample a word \\(w\_n\\) from \\(p(w\_n|z\_n,\beta)\\)
+	* sample a topic \\(z\_n\sim\\)Multinomial(\\(\theta\\) );
+	* given topic \\(z\_n\\) sample word \\(w\_n\\) from \\(p(w\_n\|z\_n,\beta)\\).
 
 ![Joint distribution Graph](/images/lda_graphical_model.png)
 
