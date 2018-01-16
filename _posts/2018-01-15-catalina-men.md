@@ -75,20 +75,31 @@ We ended up following the plan quite closely, hitting above the mark for most of
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
+  <style>
+.dataframe {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-    }
+.dataframe td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
 
-    .dataframe thead th {
-        text-align: left;
-    }
+.dataframe tr:nth-child(even){background-color: #f2f2f2;}
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+.dataframe tr:hover {background-color: #ddd;}
+
+.dataframe th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #007A87;
+    color: white;
+}
 </style>
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -170,7 +181,7 @@ We ended up following the plan quite closely, hitting above the mark for most of
 
 
 
-> Total Yards: 1151960 
+> Total Yards: 1,151,960 
 
 
 
@@ -229,17 +240,28 @@ The weekly yardage was our actual goal and we did hit it most of the times, stay
 
 <div>
 <style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
+.dataframe {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-    .dataframe thead th {
-        text-align: left;
-    }
+.dataframe td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+.dataframe tr:nth-child(even){background-color: #f2f2f2;}
+
+.dataframe tr:hover {background-color: #ddd;}
+
+.dataframe th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #007A87;
+    color: white;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -448,7 +470,7 @@ All through the training I made no mystery of my goal since I find that stating 
   </thead>
   <tbody>
     <tr>
-      <th>2017-01-03 07:09:18-08:00</th>
+      <th>2017-01-03 07:00</th>
       <td>2017-01-08</td>
       <td>First swim of 2017!!</td>
       <td>2455.591894</td>
@@ -456,7 +478,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-04 07:11:31-08:00</th>
+      <th>2017-01-04 07:00</th>
       <td>2017-01-08</td>
       <td>GPS mishap</td>
       <td>1798.988450</td>
@@ -464,7 +486,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-04 19:27:13-08:00</th>
+      <th>2017-01-04 19:00</th>
       <td>2017-01-08</td>
       <td>[POOL] Gnarly IM</td>
       <td>3520.002507</td>
@@ -472,7 +494,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-05 06:00:00-08:00</th>
+      <th>2017-01-05 06:00</th>
       <td>2017-01-08</td>
       <td>[MISC] Yardage missed by the GPS</td>
       <td>2187.220000</td>
@@ -480,7 +502,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-05 07:16:01-08:00</th>
+      <th>2017-01-05 07:00</th>
       <td>2017-01-08</td>
       <td>Another GPS fuckup..</td>
       <td>1495.074231</td>
@@ -488,7 +510,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-06 07:32:57-08:00</th>
+      <th>2017-01-06 08:00</th>
       <td>2017-01-08</td>
       <td>[POOL] Mission: Zack</td>
       <td>4374.440000</td>
@@ -496,7 +518,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-07 08:00:00-08:00</th>
+      <th>2017-01-07 08:00</th>
       <td>2017-01-08</td>
       <td>[POOL] Doing (pool) time</td>
       <td>6014.855000</td>
@@ -504,7 +526,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-07 10:43:55-08:00</th>
+      <th>2017-01-07 11:00</th>
       <td>2017-01-08</td>
       <td>Rainbow swim</td>
       <td>2641.614955</td>
@@ -512,7 +534,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-09 07:07:18-08:00</th>
+      <th>2017-01-09 07:00</th>
       <td>2017-01-15</td>
       <td>Finally a Flood!!</td>
       <td>3002.943699</td>
@@ -520,7 +542,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-10 19:15:00-08:00</th>
+      <th>2017-01-10 19:00</th>
       <td>2017-01-15</td>
       <td>[POOL] Shitshow practice</td>
       <td>4921.245000</td>
@@ -528,7 +550,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-11 07:09:51-08:00</th>
+      <th>2017-01-11 07:00</th>
       <td>2017-01-15</td>
       <td>Swimming through floating Pumpkins</td>
       <td>2885.708707</td>
@@ -536,7 +558,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-11 18:45:00-08:00</th>
+      <th>2017-01-11 19:00</th>
       <td>2017-01-15</td>
       <td>[POOL] IM crunch</td>
       <td>4374.440000</td>
@@ -544,7 +566,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-12 07:08:49-08:00</th>
+      <th>2017-01-12 07:00</th>
       <td>2017-01-15</td>
       <td>Don't try messing with the King Tide</td>
       <td>2984.899134</td>
@@ -552,7 +574,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-14 08:00:56-08:00</th>
+      <th>2017-01-14 08:00</th>
       <td>2017-01-15</td>
       <td>[POOL] Double Trouble Saturday!</td>
       <td>6561.660000</td>
@@ -560,7 +582,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-14 10:56:01-08:00</th>
+      <th>2017-01-14 11:00</th>
       <td>2017-01-15</td>
       <td>Beware the floating trees</td>
       <td>2863.945868</td>
@@ -568,7 +590,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-16 08:08:36-08:00</th>
+      <th>2017-01-16 08:00</th>
       <td>2017-01-22</td>
       <td>Cold Flood and Seal</td>
       <td>2691.702293</td>
@@ -576,7 +598,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-17 07:14:13-08:00</th>
+      <th>2017-01-17 07:00</th>
       <td>2017-01-22</td>
       <td>Fucking Cold</td>
       <td>2451.436176</td>
@@ -584,7 +606,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-18 07:13:13-08:00</th>
+      <th>2017-01-18 07:00</th>
       <td>2017-01-22</td>
       <td>Smells fishy</td>
       <td>3313.638300</td>
@@ -592,7 +614,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-18 18:30:00-08:00</th>
+      <th>2017-01-18 18:00</th>
       <td>2017-01-22</td>
       <td>[POOL] Puke-arama</td>
       <td>4593.162000</td>
@@ -600,7 +622,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-19 07:14:16-08:00</th>
+      <th>2017-01-19 07:00</th>
       <td>2017-01-22</td>
       <td>Sneaky Ebb</td>
       <td>2978.337474</td>
@@ -608,7 +630,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-20 06:45:00-08:00</th>
+      <th>2017-01-20 07:00</th>
       <td>2017-01-22</td>
       <td>[POOL] We (barely) made it!</td>
       <td>3280.830000</td>
@@ -616,7 +638,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-21 08:00:27-08:00</th>
+      <th>2017-01-21 08:00</th>
       <td>2017-01-22</td>
       <td>[POOL] Rough with Zack</td>
       <td>6780.382000</td>
@@ -624,7 +646,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-21 10:59:39-08:00</th>
+      <th>2017-01-21 11:00</th>
       <td>2017-01-22</td>
       <td>The Cherry on top</td>
       <td>2064.188875</td>
@@ -632,7 +654,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-23 07:04:50-08:00</th>
+      <th>2017-01-23 07:00</th>
       <td>2017-01-29</td>
       <td>49F (Finally)!!!</td>
       <td>3525.798640</td>
@@ -640,7 +662,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-24 19:02:00-08:00</th>
+      <th>2017-01-24 19:00</th>
       <td>2017-01-29</td>
       <td>[POOL] Swim with Dave</td>
       <td>4374.440000</td>
@@ -648,7 +670,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-25 07:12:21-08:00</th>
+      <th>2017-01-25 07:00</th>
       <td>2017-01-29</td>
       <td>Cautious Swim</td>
       <td>2855.196988</td>
@@ -656,7 +678,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-25 18:45:00-08:00</th>
+      <th>2017-01-25 19:00</th>
       <td>2017-01-29</td>
       <td>[POOL] Lots of yards with Casey</td>
       <td>4702.523000</td>
@@ -664,7 +686,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-26 19:38:18-08:00</th>
+      <th>2017-01-26 20:00</th>
       <td>2017-01-29</td>
       <td>[POOL] "Yeah Right!"</td>
       <td>4483.801000</td>
@@ -672,7 +694,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-27 07:10:48-08:00</th>
+      <th>2017-01-27 07:00</th>
       <td>2017-01-29</td>
       <td>RTFM Again!</td>
       <td>2763.880553</td>
@@ -680,7 +702,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-28 08:00:00-08:00</th>
+      <th>2017-01-28 08:00</th>
       <td>2017-01-29</td>
       <td>[POOL] ...kinda pointless....</td>
       <td>2952.747000</td>
@@ -688,7 +710,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-01-28 09:55:54-08:00</th>
+      <th>2017-01-28 10:00</th>
       <td>2017-01-29</td>
       <td>Strong Flood</td>
       <td>2720.682958</td>
@@ -696,7 +718,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-30 07:15:09-08:00</th>
+      <th>2017-01-30 07:00</th>
       <td>2017-02-05</td>
       <td>Can't wake up...</td>
       <td>3110.883006</td>
@@ -704,7 +726,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-31 07:07:51-08:00</th>
+      <th>2017-01-31 07:00</th>
       <td>2017-02-05</td>
       <td>I love it choppy!</td>
       <td>3160.860983</td>
@@ -712,7 +734,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-01-31 19:25:53-08:00</th>
+      <th>2017-01-31 19:00</th>
       <td>2017-02-05</td>
       <td>[POOL] got out early :/</td>
       <td>2734.025000</td>
@@ -720,7 +742,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-01 07:12:25-08:00</th>
+      <th>2017-02-01 07:00</th>
       <td>2017-02-05</td>
       <td>So much trash!</td>
       <td>3411.078951</td>
@@ -728,7 +750,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-03 16:06:33-08:00</th>
+      <th>2017-02-03 16:00</th>
       <td>2017-02-05</td>
       <td>Making up for lost mileage</td>
       <td>3104.758790</td>
@@ -736,7 +758,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-04 09:56:16-08:00</th>
+      <th>2017-02-04 10:00</th>
       <td>2017-02-05</td>
       <td>[24 hrs] Leg 1: GPS fucked up...</td>
       <td>5279.949080</td>
@@ -744,7 +766,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-04 15:57:04-08:00</th>
+      <th>2017-02-04 16:00</th>
       <td>2017-02-05</td>
       <td>[24hrs] Leg 2: push it!</td>
       <td>4201.758981</td>
@@ -752,7 +774,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-04 23:25:58-08:00</th>
+      <th>2017-02-04 23:00</th>
       <td>2017-02-05</td>
       <td>[24hrs] Leg 3: crawling in the dark</td>
       <td>2835.074564</td>
@@ -760,7 +782,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-05 05:20:11-08:00</th>
+      <th>2017-02-05 05:00</th>
       <td>2017-02-05</td>
       <td>[24hrs] Leg 4: Last Tango</td>
       <td>2843.386000</td>
@@ -768,7 +790,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-06 20:58:39-08:00</th>
+      <th>2017-02-06 21:00</th>
       <td>2017-02-12</td>
       <td>[POOL] struggle bus</td>
       <td>4046.357000</td>
@@ -776,7 +798,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-08 06:47:06-08:00</th>
+      <th>2017-02-08 07:00</th>
       <td>2017-02-12</td>
       <td>Back to it!</td>
       <td>3109.789396</td>
@@ -784,7 +806,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-08 19:00:44-08:00</th>
+      <th>2017-02-08 19:00</th>
       <td>2017-02-12</td>
       <td>[POOL] The waiting is the hardest part...</td>
       <td>2187.220000</td>
@@ -792,7 +814,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-09 07:03:06-08:00</th>
+      <th>2017-02-09 07:00</th>
       <td>2017-02-12</td>
       <td>Swallowed a nice gulp of sewage</td>
       <td>3239.163459</td>
@@ -800,7 +822,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-09 19:06:48-08:00</th>
+      <th>2017-02-09 19:00</th>
       <td>2017-02-12</td>
       <td>[POOL] just a lil' sumthing...</td>
       <td>1093.610000</td>
@@ -808,7 +830,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-13 07:12:19-08:00</th>
+      <th>2017-02-13 07:00</th>
       <td>2017-02-19</td>
       <td>Back from Vegas</td>
       <td>3024.159733</td>
@@ -816,7 +838,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-14 07:10:57-08:00</th>
+      <th>2017-02-14 07:00</th>
       <td>2017-02-19</td>
       <td>Valentine's Day heart swim</td>
       <td>2953.731249</td>
@@ -824,7 +846,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-14 19:35:21-08:00</th>
+      <th>2017-02-14 20:00</th>
       <td>2017-02-19</td>
       <td>[POOL] valentine day warmdown</td>
       <td>3390.191000</td>
@@ -832,7 +854,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-15 07:06:46-08:00</th>
+      <th>2017-02-15 07:00</th>
       <td>2017-02-19</td>
       <td>Obstacles course!</td>
       <td>3058.827170</td>
@@ -840,7 +862,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-16 17:45:31-08:00</th>
+      <th>2017-02-16 18:00</th>
       <td>2017-02-19</td>
       <td>Fresh AF</td>
       <td>2199.468432</td>
@@ -848,7 +870,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-16 19:15:00-08:00</th>
+      <th>2017-02-16 19:00</th>
       <td>2017-02-19</td>
       <td>[POOL] lot of stroke...</td>
       <td>5030.606000</td>
@@ -856,7 +878,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-17 06:47:35-08:00</th>
+      <th>2017-02-17 07:00</th>
       <td>2017-02-19</td>
       <td>[POOL] that escalated quickly</td>
       <td>4374.440000</td>
@@ -864,7 +886,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-18 07:23:50-08:00</th>
+      <th>2017-02-18 07:00</th>
       <td>2017-02-19</td>
       <td>Rough Chas</td>
       <td>3775.360442</td>
@@ -872,7 +894,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-18 08:59:17-08:00</th>
+      <th>2017-02-18 09:00</th>
       <td>2017-02-19</td>
       <td>[MISC] started the watch late</td>
       <td>880.027967</td>
@@ -880,7 +902,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-18 17:37:48-08:00</th>
+      <th>2017-02-18 18:00</th>
       <td>2017-02-19</td>
       <td>Dip #2</td>
       <td>2252.617878</td>
@@ -888,7 +910,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-20 15:46:47-08:00</th>
+      <th>2017-02-20 16:00</th>
       <td>2017-02-26</td>
       <td>Muddy Waters</td>
       <td>3123.896965</td>
@@ -896,7 +918,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-21 06:49:15-08:00</th>
+      <th>2017-02-21 07:00</th>
       <td>2017-02-26</td>
       <td>Hilly Swim</td>
       <td>3937.324083</td>
@@ -904,7 +926,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-21 19:37:03-08:00</th>
+      <th>2017-02-21 20:00</th>
       <td>2017-02-26</td>
       <td>[POOL] Swimswimswim</td>
       <td>4702.523000</td>
@@ -912,7 +934,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-22 06:54:48-08:00</th>
+      <th>2017-02-22 07:00</th>
       <td>2017-02-26</td>
       <td>Blind and Bumpy</td>
       <td>3756.987794</td>
@@ -920,7 +942,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-22 18:30:00-08:00</th>
+      <th>2017-02-22 18:00</th>
       <td>2017-02-26</td>
       <td>[POOL] FUEGO reunion</td>
       <td>4046.357000</td>
@@ -928,7 +950,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-23 06:51:48-08:00</th>
+      <th>2017-02-23 07:00</th>
       <td>2017-02-26</td>
       <td>That was chilly..</td>
       <td>2815.936389</td>
@@ -936,7 +958,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-24 06:52:47-08:00</th>
+      <th>2017-02-24 07:00</th>
       <td>2017-02-26</td>
       <td>[POOL] hijacked the distance!</td>
       <td>6014.855000</td>
@@ -944,7 +966,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-25 08:00:00-08:00</th>
+      <th>2017-02-25 08:00</th>
       <td>2017-02-26</td>
       <td>[POOL] tired Medley</td>
       <td>3062.108000</td>
@@ -952,7 +974,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-25 10:58:59-08:00</th>
+      <th>2017-02-25 11:00</th>
       <td>2017-02-26</td>
       <td>Slow and short..</td>
       <td>2856.618681</td>
@@ -960,7 +982,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-27 19:00:00-08:00</th>
+      <th>2017-02-27 19:00</th>
       <td>2017-03-05</td>
       <td>[POOL] a case of the Mondays</td>
       <td>4593.162000</td>
@@ -968,7 +990,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-02-28 06:48:43-08:00</th>
+      <th>2017-02-28 07:00</th>
       <td>2017-03-05</td>
       <td>Island of garbage</td>
       <td>3732.272208</td>
@@ -976,7 +998,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-02-28 19:16:09-08:00</th>
+      <th>2017-02-28 19:00</th>
       <td>2017-03-05</td>
       <td>[POOL] amateur night</td>
       <td>5030.606000</td>
@@ -984,7 +1006,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-01 18:45:00-08:00</th>
+      <th>2017-03-01 19:00</th>
       <td>2017-03-05</td>
       <td>[POOL] Hungry for Yards</td>
       <td>5030.606000</td>
@@ -992,7 +1014,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-02 06:52:57-08:00</th>
+      <th>2017-03-02 07:00</th>
       <td>2017-03-05</td>
       <td>Foam Party</td>
       <td>3402.658154</td>
@@ -1000,7 +1022,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-02 19:56:40-08:00</th>
+      <th>2017-03-02 20:00</th>
       <td>2017-03-05</td>
       <td>[POOL] low expectations</td>
       <td>3608.913000</td>
@@ -1008,7 +1030,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-03 07:06:05-08:00</th>
+      <th>2017-03-03 07:00</th>
       <td>2017-03-05</td>
       <td>[POOL] skippin skips</td>
       <td>5796.133000</td>
@@ -1016,7 +1038,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-04 09:25:28-08:00</th>
+      <th>2017-03-04 09:00</th>
       <td>2017-03-05</td>
       <td>3 Coves (equivalent) in March</td>
       <td>4512.453582</td>
@@ -1024,7 +1046,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-06 06:55:01-08:00</th>
+      <th>2017-03-06 07:00</th>
       <td>2017-03-12</td>
       <td>Struggle Bus</td>
       <td>2974.837922</td>
@@ -1032,7 +1054,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-07 06:49:48-08:00</th>
+      <th>2017-03-07 07:00</th>
       <td>2017-03-12</td>
       <td>Weird conditions..</td>
       <td>3074.356432</td>
@@ -1040,7 +1062,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-07 19:15:00-08:00</th>
+      <th>2017-03-07 19:00</th>
       <td>2017-03-12</td>
       <td>[POOL] lots of IM for a Tuesday</td>
       <td>5030.606000</td>
@@ -1048,7 +1070,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-08 18:55:26-08:00</th>
+      <th>2017-03-08 19:00</th>
       <td>2017-03-12</td>
       <td>[POOL] overpopulation</td>
       <td>6014.855000</td>
@@ -1056,7 +1078,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-09 16:13:40-08:00</th>
+      <th>2017-03-09 16:00</th>
       <td>2017-03-12</td>
       <td>Catching up</td>
       <td>2884.943180</td>
@@ -1064,7 +1086,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-09 19:15:00-08:00</th>
+      <th>2017-03-09 19:00</th>
       <td>2017-03-12</td>
       <td>[POOL] proving a point</td>
       <td>5456.020290</td>
@@ -1072,7 +1094,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-10 06:59:15-08:00</th>
+      <th>2017-03-10 07:00</th>
       <td>2017-03-12</td>
       <td>[POOL] do it for Tartine</td>
       <td>5358.689000</td>
@@ -1080,7 +1102,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-11 09:41:56-08:00</th>
+      <th>2017-03-11 10:00</th>
       <td>2017-03-12</td>
       <td>Uphill</td>
       <td>4799.854290</td>
@@ -1088,7 +1110,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-13 07:10:32-07:00</th>
+      <th>2017-03-13 07:00</th>
       <td>2017-03-19</td>
       <td>In the (sea)lion den</td>
       <td>3362.850750</td>
@@ -1096,7 +1118,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-14 17:39:13-07:00</th>
+      <th>2017-03-14 18:00</th>
       <td>2017-03-19</td>
       <td>Afternoons are Dumb</td>
       <td>2147.193874</td>
@@ -1104,7 +1126,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-14 19:28:17-07:00</th>
+      <th>2017-03-14 19:00</th>
       <td>2017-03-19</td>
       <td>[POOL] need them yards!</td>
       <td>5030.606000</td>
@@ -1112,7 +1134,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-15 18:49:04-07:00</th>
+      <th>2017-03-15 19:00</th>
       <td>2017-03-19</td>
       <td>[POOL] fucking time change</td>
       <td>5468.050000</td>
@@ -1120,7 +1142,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-16 07:10:51-07:00</th>
+      <th>2017-03-16 07:00</th>
       <td>2017-03-19</td>
       <td>Struggle bus......</td>
       <td>3111.429811</td>
@@ -1128,7 +1150,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-16 19:15:54-07:00</th>
+      <th>2017-03-16 19:00</th>
       <td>2017-03-19</td>
       <td>[POOL] just enough</td>
       <td>5030.606000</td>
@@ -1136,7 +1158,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-17 06:45:00-07:00</th>
+      <th>2017-03-17 07:00</th>
       <td>2017-03-19</td>
       <td>[POOL]  open water at mission pool</td>
       <td>5030.606000</td>
@@ -1144,7 +1166,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-18 08:36:35-07:00</th>
+      <th>2017-03-18 09:00</th>
       <td>2017-03-19</td>
       <td>Wandering around...</td>
       <td>4624.220524</td>
@@ -1152,7 +1174,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-19 10:00:00-07:00</th>
+      <th>2017-03-19 10:00</th>
       <td>2017-03-19</td>
       <td>[POOL]  long course warm-down</td>
       <td>2734.025000</td>
@@ -1160,7 +1182,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-20 06:58:43-07:00</th>
+      <th>2017-03-20 07:00</th>
       <td>2017-03-26</td>
       <td>Chas at last!!!</td>
       <td>3605.632170</td>
@@ -1168,7 +1190,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-20 18:20:45-07:00</th>
+      <th>2017-03-20 18:00</th>
       <td>2017-03-26</td>
       <td>Binging on that flood</td>
       <td>3259.067161</td>
@@ -1176,7 +1198,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-21 07:07:29-07:00</th>
+      <th>2017-03-21 07:00</th>
       <td>2017-03-26</td>
       <td>Polar Bear: Done.</td>
       <td>3330.370533</td>
@@ -1184,7 +1206,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-21 19:15:00-07:00</th>
+      <th>2017-03-21 19:00</th>
       <td>2017-03-26</td>
       <td>[POOL] coach choice</td>
       <td>6014.855000</td>
@@ -1192,7 +1214,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-23 06:53:54-07:00</th>
+      <th>2017-03-23 07:00</th>
       <td>2017-03-26</td>
       <td>Do it for the glory</td>
       <td>3668.186662</td>
@@ -1200,7 +1222,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-23 19:15:00-07:00</th>
+      <th>2017-03-23 19:00</th>
       <td>2017-03-26</td>
       <td>[POOL] waste of time</td>
       <td>4374.440000</td>
@@ -1208,7 +1230,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-25 08:21:02-07:00</th>
+      <th>2017-03-25 08:00</th>
       <td>2017-03-26</td>
       <td>[POOL] round one.</td>
       <td>5686.772000</td>
@@ -1216,7 +1238,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-25 10:42:52-07:00</th>
+      <th>2017-03-25 11:00</th>
       <td>2017-03-26</td>
       <td>Feeling Strong</td>
       <td>4239.488526</td>
@@ -1224,7 +1246,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-27 11:45:30-07:00</th>
+      <th>2017-03-27 12:00</th>
       <td>2017-04-02</td>
       <td>Bayshit crazy cove</td>
       <td>4310.463815</td>
@@ -1232,7 +1254,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-28 06:54:49-07:00</th>
+      <th>2017-03-28 07:00</th>
       <td>2017-04-02</td>
       <td>Bru-Nope</td>
       <td>3646.861267</td>
@@ -1240,7 +1262,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-29 18:30:00-07:00</th>
+      <th>2017-03-29 18:00</th>
       <td>2017-04-02</td>
       <td>[POOL] Zack brought back some yards</td>
       <td>6014.855000</td>
@@ -1248,7 +1270,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-30 06:53:09-07:00</th>
+      <th>2017-03-30 07:00</th>
       <td>2017-04-02</td>
       <td>Smokey water..</td>
       <td>3865.145823</td>
@@ -1256,7 +1278,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-03-30 19:48:49-07:00</th>
+      <th>2017-03-30 20:00</th>
       <td>2017-04-02</td>
       <td>[POOL] Fuck this shit</td>
       <td>546.805000</td>
@@ -1264,7 +1286,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-03-31 06:50:11-07:00</th>
+      <th>2017-03-31 07:00</th>
       <td>2017-04-02</td>
       <td>[POOL] rough at the edges</td>
       <td>4155.718000</td>
@@ -1272,7 +1294,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-01 08:53:11-07:00</th>
+      <th>2017-04-01 09:00</th>
       <td>2017-04-02</td>
       <td>[POOL] above expectations</td>
       <td>7545.909000</td>
@@ -1280,7 +1302,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-02 11:24:26-07:00</th>
+      <th>2017-04-02 11:00</th>
       <td>2017-04-02</td>
       <td>2h30 through the Regatta</td>
       <td>7809.250288</td>
@@ -1288,7 +1310,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-04 06:53:00-07:00</th>
+      <th>2017-04-04 07:00</th>
       <td>2017-04-09</td>
       <td>Recovery Swim</td>
       <td>3833.977938</td>
@@ -1296,7 +1318,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-04 19:47:01-07:00</th>
+      <th>2017-04-04 20:00</th>
       <td>2017-04-09</td>
       <td>[POOL] [Censored]</td>
       <td>5030.606000</td>
@@ -1304,7 +1326,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-05 18:48:32-07:00</th>
+      <th>2017-04-05 19:00</th>
       <td>2017-04-09</td>
       <td>[POOL] Zack's becoming the new Waifa...</td>
       <td>5030.606000</td>
@@ -1312,7 +1334,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-06 17:12:28-07:00</th>
+      <th>2017-04-06 17:00</th>
       <td>2017-04-09</td>
       <td>Note to self: not on an empty stomach</td>
       <td>3277.658531</td>
@@ -1320,7 +1342,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-07 16:30:54-07:00</th>
+      <th>2017-04-07 17:00</th>
       <td>2017-04-09</td>
       <td>Catching up on miles</td>
       <td>3301.280507</td>
@@ -1328,7 +1350,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-08 08:00:00-07:00</th>
+      <th>2017-04-08 08:00</th>
       <td>2017-04-09</td>
       <td>[POOL] trying to unfuck my stroke</td>
       <td>3280.830000</td>
@@ -1336,7 +1358,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-08 11:13:01-07:00</th>
+      <th>2017-04-08 11:00</th>
       <td>2017-04-09</td>
       <td>This week I suck</td>
       <td>2272.084136</td>
@@ -1344,7 +1366,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-09 07:03:47-07:00</th>
+      <th>2017-04-09 07:00</th>
       <td>2017-04-09</td>
       <td>Morning Swim</td>
       <td>1777.881777</td>
@@ -1352,7 +1374,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-11 06:50:28-07:00</th>
+      <th>2017-04-11 07:00</th>
       <td>2017-04-16</td>
       <td>Back to the grind</td>
       <td>3463.244148</td>
@@ -1360,7 +1382,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-11 19:30:24-07:00</th>
+      <th>2017-04-11 20:00</th>
       <td>2017-04-16</td>
       <td>[POOL]  need to ice...</td>
       <td>5030.606000</td>
@@ -1368,7 +1390,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-12 06:57:58-07:00</th>
+      <th>2017-04-12 07:00</th>
       <td>2017-04-16</td>
       <td>[POOL] in the slow lane</td>
       <td>5468.050000</td>
@@ -1376,7 +1398,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-12 18:30:54-07:00</th>
+      <th>2017-04-12 19:00</th>
       <td>2017-04-16</td>
       <td>[POOL] a long day...</td>
       <td>5468.050000</td>
@@ -1384,7 +1406,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-13 06:54:36-07:00</th>
+      <th>2017-04-13 07:00</th>
       <td>2017-04-16</td>
       <td>Trying to fool the Ebb</td>
       <td>3682.075509</td>
@@ -1392,7 +1414,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-14 06:56:39-07:00</th>
+      <th>2017-04-14 07:00</th>
       <td>2017-04-16</td>
       <td>4 Coves April is back!</td>
       <td>5827.410246</td>
@@ -1400,7 +1422,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-15 06:30:00-07:00</th>
+      <th>2017-04-15 06:00</th>
       <td>2017-04-16</td>
       <td>[POOL] swimming with another tax bracket</td>
       <td>8311.436000</td>
@@ -1408,7 +1430,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-15 10:57:51-07:00</th>
+      <th>2017-04-15 11:00</th>
       <td>2017-04-16</td>
       <td>Finish off the week</td>
       <td>2934.811796</td>
@@ -1416,7 +1438,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-17 06:52:40-07:00</th>
+      <th>2017-04-17 07:00</th>
       <td>2017-04-23</td>
       <td>Infinity Looping</td>
       <td>4259.392228</td>
@@ -1424,7 +1446,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-18 06:38:14-07:00</th>
+      <th>2017-04-18 07:00</th>
       <td>2017-04-23</td>
       <td>April Coves</td>
       <td>5800.835523</td>
@@ -1432,7 +1454,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-18 19:15:51-07:00</th>
+      <th>2017-04-18 19:00</th>
       <td>2017-04-23</td>
       <td>[POOL] pre-movie-night</td>
       <td>3344.040658</td>
@@ -1440,7 +1462,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-19 06:45:00-07:00</th>
+      <th>2017-04-19 07:00</th>
       <td>2017-04-23</td>
       <td>[POOL] pyramids</td>
       <td>6687.971955</td>
@@ -1448,7 +1470,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-19 18:30:00-07:00</th>
+      <th>2017-04-19 18:00</th>
       <td>2017-04-23</td>
       <td>[POOL] distance whore</td>
       <td>6452.299000</td>
@@ -1456,7 +1478,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-20 06:52:29-07:00</th>
+      <th>2017-04-20 07:00</th>
       <td>2017-04-23</td>
       <td>Recovery Swim (and GPS tantrums)</td>
       <td>3114.163836</td>
@@ -1464,7 +1486,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-20 19:15:00-07:00</th>
+      <th>2017-04-20 19:00</th>
       <td>2017-04-23</td>
       <td>[POOL] tedious IM</td>
       <td>5030.606000</td>
@@ -1472,7 +1494,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-22 06:30:18-07:00</th>
+      <th>2017-04-22 07:00</th>
       <td>2017-04-23</td>
       <td>Bruno Point at last!!</td>
       <td>4184.042499</td>
@@ -1480,7 +1502,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-22 08:40:04-07:00</th>
+      <th>2017-04-22 09:00</th>
       <td>2017-04-23</td>
       <td>[MISC] lost from GPS</td>
       <td>880.027967</td>
@@ -1488,7 +1510,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-23 11:17:50-07:00</th>
+      <th>2017-04-23 11:00</th>
       <td>2017-04-23</td>
       <td>[POOL] getting some Sun</td>
       <td>2952.747000</td>
@@ -1496,7 +1518,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-24 06:54:14-07:00</th>
+      <th>2017-04-24 07:00</th>
       <td>2017-04-30</td>
       <td>Enjoying the Flood!</td>
       <td>4944.976337</td>
@@ -1504,7 +1526,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-24 18:30:00-07:00</th>
+      <th>2017-04-24 18:00</th>
       <td>2017-04-30</td>
       <td>[POOL] 50's Easy</td>
       <td>5631.982139</td>
@@ -1512,7 +1534,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-25 19:15:37-07:00</th>
+      <th>2017-04-25 19:00</th>
       <td>2017-04-30</td>
       <td>[POOL] Oh well.....</td>
       <td>3499.552000</td>
@@ -1520,7 +1542,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-26 06:45:00-07:00</th>
+      <th>2017-04-26 07:00</th>
       <td>2017-04-30</td>
       <td>[POOL] drizzly</td>
       <td>5686.772000</td>
@@ -1528,7 +1550,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-27 06:22:44-07:00</th>
+      <th>2017-04-27 06:00</th>
       <td>2017-04-30</td>
       <td>Dawn Patrol 5 Coves</td>
       <td>6368.309752</td>
@@ -1536,7 +1558,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-27 08:47:44-07:00</th>
+      <th>2017-04-27 09:00</th>
       <td>2017-04-30</td>
       <td>[MISC] bad GPS</td>
       <td>656.166000</td>
@@ -1544,7 +1566,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-04-28 06:45:00-07:00</th>
+      <th>2017-04-28 07:00</th>
       <td>2017-04-30</td>
       <td>[POOL] IM. No seriously</td>
       <td>5468.050000</td>
@@ -1552,7 +1574,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-04-29 07:15:00-07:00</th>
+      <th>2017-04-29 07:00</th>
       <td>2017-04-30</td>
       <td>[POOL] The Pozzi's @ NBA</td>
       <td>8092.714000</td>
@@ -1560,7 +1582,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-01 18:30:00-07:00</th>
+      <th>2017-05-01 18:00</th>
       <td>2017-05-07</td>
       <td>[POOL] mid distance easy</td>
       <td>5631.982139</td>
@@ -1568,7 +1590,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-02 19:15:53-07:00</th>
+      <th>2017-05-02 19:00</th>
       <td>2017-05-07</td>
       <td>[POOL] Happy birthday to the Coach oftyhe Year!</td>
       <td>5468.050000</td>
@@ -1576,7 +1598,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-03 06:55:22-07:00</th>
+      <th>2017-05-03 07:00</th>
       <td>2017-05-07</td>
       <td>Patchwork</td>
       <td>3953.290789</td>
@@ -1584,7 +1606,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-03 19:03:48-07:00</th>
+      <th>2017-05-03 19:00</th>
       <td>2017-05-07</td>
       <td>[POOL] Taper Sprint</td>
       <td>3344.040658</td>
@@ -1592,7 +1614,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-05 05:59:34-07:00</th>
+      <th>2017-05-05 06:00</th>
       <td>2017-05-07</td>
       <td>Cinco de Mayo(nnaise)</td>
       <td>7029.943802</td>
@@ -1600,7 +1622,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-05 17:00:44-07:00</th>
+      <th>2017-05-05 17:00</th>
       <td>2017-05-07</td>
       <td>Duo de Cinco</td>
       <td>7372.462454</td>
@@ -1608,7 +1630,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-06 08:04:40-07:00</th>
+      <th>2017-05-06 08:00</th>
       <td>2017-05-07</td>
       <td>Inesorabile.</td>
       <td>6593.046607</td>
@@ -1616,7 +1638,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-06 10:45:11-07:00</th>
+      <th>2017-05-06 11:00</th>
       <td>2017-05-07</td>
       <td>[MISC] another GPS misshap</td>
       <td>437.444000</td>
@@ -1624,7 +1646,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-07 10:15:00-07:00</th>
+      <th>2017-05-07 10:00</th>
       <td>2017-05-07</td>
       <td>[POOL] Soaking in the Sun</td>
       <td>2288.050842</td>
@@ -1632,7 +1654,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-08 06:59:01-07:00</th>
+      <th>2017-05-08 07:00</th>
       <td>2017-05-14</td>
       <td>Monster Flood</td>
       <td>4115.145069</td>
@@ -1640,7 +1662,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-10 18:30:00-07:00</th>
+      <th>2017-05-10 18:00</th>
       <td>2017-05-14</td>
       <td>[POOL] huge gulp of poo(l) water</td>
       <td>6014.855000</td>
@@ -1648,7 +1670,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-11 07:00:49-07:00</th>
+      <th>2017-05-11 07:00</th>
       <td>2017-05-14</td>
       <td>Trying to avoid the ebb</td>
       <td>3950.556764</td>
@@ -1656,7 +1678,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-12 06:45:00-07:00</th>
+      <th>2017-05-12 07:00</th>
       <td>2017-05-14</td>
       <td>[POOL] took it up a notch</td>
       <td>5030.606000</td>
@@ -1664,7 +1686,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-13 07:48:20-07:00</th>
+      <th>2017-05-13 08:00</th>
       <td>2017-05-14</td>
       <td>False start</td>
       <td>5838.346346</td>
@@ -1672,7 +1694,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-13 09:57:13-07:00</th>
+      <th>2017-05-13 10:00</th>
       <td>2017-05-14</td>
       <td>Finish up!</td>
       <td>4105.083857</td>
@@ -1680,7 +1702,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-14 06:04:53-07:00</th>
+      <th>2017-05-14 06:00</th>
       <td>2017-05-14</td>
       <td>Bay to Broken: stuck into the infinity pool!!</td>
       <td>11620.153055</td>
@@ -1688,7 +1710,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-16 06:33:41-07:00</th>
+      <th>2017-05-16 07:00</th>
       <td>2017-05-21</td>
       <td>Quite Brisk</td>
       <td>4988.283293</td>
@@ -1696,7 +1718,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-16 19:15:59-07:00</th>
+      <th>2017-05-16 19:00</th>
       <td>2017-05-21</td>
       <td>[POOL] Swimming with wifey</td>
       <td>5358.689000</td>
@@ -1704,7 +1726,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-17 06:45:00-07:00</th>
+      <th>2017-05-17 07:00</th>
       <td>2017-05-21</td>
       <td>[POOL] Pulling on the laneline ain't a stroke...</td>
       <td>6014.855000</td>
@@ -1712,7 +1734,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-17 19:13:29-07:00</th>
+      <th>2017-05-17 19:00</th>
       <td>2017-05-21</td>
       <td>[POOL] whoops he did it again...</td>
       <td>4046.357000</td>
@@ -1720,7 +1742,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-19 05:51:39-07:00</th>
+      <th>2017-05-19 06:00</th>
       <td>2017-05-21</td>
       <td>Trying not to lag too much behind</td>
       <td>4449.680368</td>
@@ -1728,7 +1750,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-20 07:52:15-07:00</th>
+      <th>2017-05-20 08:00</th>
       <td>2017-05-21</td>
       <td>The GPS and I both fucked up...</td>
       <td>7921.235952</td>
@@ -1736,7 +1758,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-20 12:43:09-07:00</th>
+      <th>2017-05-20 13:00</th>
       <td>2017-05-21</td>
       <td>[MISC] I did at least 3k more</td>
       <td>3280.830000</td>
@@ -1744,7 +1766,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-21 17:16:38-07:00</th>
+      <th>2017-05-21 17:00</th>
       <td>2017-05-21</td>
       <td>Swimming with my babe!!</td>
       <td>4007.533845</td>
@@ -1752,7 +1774,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-22 18:30:00-07:00</th>
+      <th>2017-05-22 18:00</th>
       <td>2017-05-28</td>
       <td>[POOL] nap with Paul</td>
       <td>3344.040658</td>
@@ -1760,7 +1782,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-05-23 06:37:07-07:00</th>
+      <th>2017-05-23 07:00</th>
       <td>2017-05-28</td>
       <td>Stretching it out in the flood</td>
       <td>4073.915972</td>
@@ -1768,7 +1790,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-25 06:30:08-07:00</th>
+      <th>2017-05-25 07:00</th>
       <td>2017-05-28</td>
       <td>4 hours at last!!! Thanks Duke!!!</td>
       <td>14297.419696</td>
@@ -1776,7 +1798,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-28 12:54:15-07:00</th>
+      <th>2017-05-28 13:00</th>
       <td>2017-05-28</td>
       <td>Shark Baiting in LaJolla Cove!!!</td>
       <td>3851.913142</td>
@@ -1784,7 +1806,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-30 06:55:50-07:00</th>
+      <th>2017-05-30 07:00</th>
       <td>2017-06-04</td>
       <td>A cold welcome back to the Bay</td>
       <td>4255.783315</td>
@@ -1792,7 +1814,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-31 06:23:32-07:00</th>
+      <th>2017-05-31 06:00</th>
       <td>2017-06-04</td>
       <td>Never on an empty stomach</td>
       <td>2893.473338</td>
@@ -1800,7 +1822,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-31 14:19:00-07:00</th>
+      <th>2017-05-31 14:00</th>
       <td>2017-06-04</td>
       <td>Coving in the Sun</td>
       <td>7050.613031</td>
@@ -1808,7 +1830,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-05-31 18:30:23-07:00</th>
+      <th>2017-05-31 19:00</th>
       <td>2017-06-04</td>
       <td>[POOL] finish off the day</td>
       <td>5030.606000</td>
@@ -1816,7 +1838,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-01 06:42:47-07:00</th>
+      <th>2017-06-01 07:00</th>
       <td>2017-06-04</td>
       <td>So tired...</td>
       <td>4480.629531</td>
@@ -1824,7 +1846,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-02 06:45:00-07:00</th>
+      <th>2017-06-02 07:00</th>
       <td>2017-06-04</td>
       <td>[POOL] Stretch it out before the weekend</td>
       <td>3827.635000</td>
@@ -1832,7 +1854,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-03 06:38:48-07:00</th>
+      <th>2017-06-03 07:00</th>
       <td>2017-06-04</td>
       <td>4hours with jellyfish stings</td>
       <td>10056.946921</td>
@@ -1840,7 +1862,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-03 11:34:08-07:00</th>
+      <th>2017-06-03 12:00</th>
       <td>2017-06-04</td>
       <td>[MISC] GPS fucked up again...</td>
       <td>3520.002507</td>
@@ -1848,7 +1870,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-05 06:11:51-07:00</th>
+      <th>2017-06-05 06:00</th>
       <td>2017-06-11</td>
       <td>Warm-Cold-Warm-Cold...</td>
       <td>6192.129181</td>
@@ -1856,7 +1878,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-05 18:30:53-07:00</th>
+      <th>2017-06-05 19:00</th>
       <td>2017-06-11</td>
       <td>[POOL] 100's EZ</td>
       <td>6014.855000</td>
@@ -1864,7 +1886,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-06 17:16:13-07:00</th>
+      <th>2017-06-06 17:00</th>
       <td>2017-06-11</td>
       <td>Relax and stretch</td>
       <td>2383.194912</td>
@@ -1872,7 +1894,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-07 18:37:02-07:00</th>
+      <th>2017-06-07 19:00</th>
       <td>2017-06-11</td>
       <td>[POOL] Sugar Crash</td>
       <td>1640.415000</td>
@@ -1880,7 +1902,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-08 16:03:05-07:00</th>
+      <th>2017-06-08 16:00</th>
       <td>2017-06-11</td>
       <td>Pre-gaming</td>
       <td>3055.108896</td>
@@ -1888,7 +1910,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-09 16:25:20-07:00</th>
+      <th>2017-06-09 16:00</th>
       <td>2017-06-11</td>
       <td>Taper swim</td>
       <td>2684.047023</td>
@@ -1896,7 +1918,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-10 08:08:54-07:00</th>
+      <th>2017-06-10 08:00</th>
       <td>2017-06-11</td>
       <td>Lake DelValle 10k!</td>
       <td>11469.234875</td>
@@ -1904,7 +1926,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-11 17:19:30-07:00</th>
+      <th>2017-06-11 17:00</th>
       <td>2017-06-11</td>
       <td>Finish off the weekend</td>
       <td>4010.705314</td>
@@ -1912,7 +1934,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-12 06:56:04-07:00</th>
+      <th>2017-06-12 07:00</th>
       <td>2017-06-18</td>
       <td>Let's start off the new week!</td>
       <td>6050.069242</td>
@@ -1920,7 +1942,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-12 18:33:53-07:00</th>
+      <th>2017-06-12 19:00</th>
       <td>2017-06-18</td>
       <td>[POOL] Tender shoulder</td>
       <td>4374.440000</td>
@@ -1928,7 +1950,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-13 19:15:00-07:00</th>
+      <th>2017-06-13 19:00</th>
       <td>2017-06-18</td>
       <td>[POOL] hot pot</td>
       <td>5577.411000</td>
@@ -1936,7 +1958,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-14 06:31:40-07:00</th>
+      <th>2017-06-14 07:00</th>
       <td>2017-06-18</td>
       <td>Winter wonderland</td>
       <td>5265.185345</td>
@@ -1944,7 +1966,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-14 08:49:34-07:00</th>
+      <th>2017-06-14 09:00</th>
       <td>2017-06-18</td>
       <td>[MISC] GPS fuckup</td>
       <td>765.527000</td>
@@ -1952,7 +1974,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-15 07:12:12-07:00</th>
+      <th>2017-06-15 07:00</th>
       <td>2017-06-18</td>
       <td>Better than nothing!</td>
       <td>3272.956008</td>
@@ -1960,7 +1982,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-16 06:45:00-07:00</th>
+      <th>2017-06-16 07:00</th>
       <td>2017-06-18</td>
       <td>[POOL] can't count for shit</td>
       <td>4155.718000</td>
@@ -1968,7 +1990,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-17 17:18:05-07:00</th>
+      <th>2017-06-17 17:00</th>
       <td>2017-06-18</td>
       <td>Critters of the Lagoon!</td>
       <td>15118.939528</td>
@@ -1976,7 +1998,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-20 08:07:37-07:00</th>
+      <th>2017-06-20 08:00</th>
       <td>2017-06-25</td>
       <td>Cooling down with Bae</td>
       <td>1365.809529</td>
@@ -1984,7 +2006,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-20 19:15:00-07:00</th>
+      <th>2017-06-20 19:00</th>
       <td>2017-06-25</td>
       <td>[POOL] That wasn't very successful</td>
       <td>1849.950676</td>
@@ -1992,7 +2014,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-21 06:57:52-07:00</th>
+      <th>2017-06-21 07:00</th>
       <td>2017-06-25</td>
       <td>Binging on that Flood!</td>
       <td>6005.231232</td>
@@ -2000,7 +2022,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-21 19:14:14-07:00</th>
+      <th>2017-06-21 19:00</th>
       <td>2017-06-25</td>
       <td>[POOL] I can't streamline for shit!</td>
       <td>5030.606000</td>
@@ -2008,7 +2030,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-22 07:07:39-07:00</th>
+      <th>2017-06-22 07:00</th>
       <td>2017-06-25</td>
       <td>Float around to ice them shoulders</td>
       <td>1422.895971</td>
@@ -2016,7 +2038,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-24 05:31:44-07:00</th>
+      <th>2017-06-24 06:00</th>
       <td>2017-06-25</td>
       <td>Puking and Twerking..</td>
       <td>18054.298129</td>
@@ -2024,7 +2046,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-06-27 19:15:00-07:00</th>
+      <th>2017-06-27 19:00</th>
       <td>2017-07-02</td>
       <td>[POOL] IM and I liked that</td>
       <td>5468.050000</td>
@@ -2032,7 +2054,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-28 18:30:00-07:00</th>
+      <th>2017-06-28 18:00</th>
       <td>2017-07-02</td>
       <td>[POOL] no soul</td>
       <td>4046.357000</td>
@@ -2040,7 +2062,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-06-29 06:51:37-07:00</th>
+      <th>2017-06-29 07:00</th>
       <td>2017-07-02</td>
       <td>Birthday swim!!!</td>
       <td>4082.446130</td>
@@ -2048,7 +2070,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-01 06:25:19-07:00</th>
+      <th>2017-07-01 06:00</th>
       <td>2017-07-02</td>
       <td>My leg hates me.</td>
       <td>10462.129426</td>
@@ -2056,7 +2078,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-03 18:44:03-07:00</th>
+      <th>2017-07-03 19:00</th>
       <td>2017-07-09</td>
       <td>[POOL] back to the grind</td>
       <td>5030.606000</td>
@@ -2064,7 +2086,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-04 09:03:24-07:00</th>
+      <th>2017-07-04 09:00</th>
       <td>2017-07-09</td>
       <td>FREEDOM!</td>
       <td>2669.173927</td>
@@ -2072,7 +2094,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-05 06:54:11-07:00</th>
+      <th>2017-07-05 07:00</th>
       <td>2017-07-09</td>
       <td>Warm flood chilly air...</td>
       <td>4879.469098</td>
@@ -2080,7 +2102,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-05 19:00:12-07:00</th>
+      <th>2017-07-05 19:00</th>
       <td>2017-07-09</td>
       <td>[POOL] taking it easy..</td>
       <td>3390.191000</td>
@@ -2088,7 +2110,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-08 08:40:30-07:00</th>
+      <th>2017-07-08 09:00</th>
       <td>2017-07-09</td>
       <td>Sunny and warm!</td>
       <td>4428.245612</td>
@@ -2096,7 +2118,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-09 06:04:58-07:00</th>
+      <th>2017-07-09 06:00</th>
       <td>2017-07-09</td>
       <td>We swam more hours than we slept last night</td>
       <td>22948.093518</td>
@@ -2104,7 +2126,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-10 18:30:00-07:00</th>
+      <th>2017-07-10 18:00</th>
       <td>2017-07-16</td>
       <td>[POOL] recovery sprint</td>
       <td>3062.108000</td>
@@ -2112,7 +2134,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-11 18:44:21-07:00</th>
+      <th>2017-07-11 19:00</th>
       <td>2017-07-16</td>
       <td>Hanging with GGTC</td>
       <td>2375.102198</td>
@@ -2120,7 +2142,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-12 18:45:00-07:00</th>
+      <th>2017-07-12 19:00</th>
       <td>2017-07-16</td>
       <td>[POOL] Davis Mile</td>
       <td>4400.030474</td>
@@ -2128,7 +2150,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-13 17:38:23-07:00</th>
+      <th>2017-07-13 18:00</th>
       <td>2017-07-16</td>
       <td>100th mile</td>
       <td>1485.013019</td>
@@ -2136,7 +2158,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-15 07:10:49-07:00</th>
+      <th>2017-07-15 07:00</th>
       <td>2017-07-16</td>
       <td>Swam across a border and Transed Tahoe</td>
       <td>16574.425077</td>
@@ -2144,7 +2166,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-16 12:23:25-07:00</th>
+      <th>2017-07-16 12:00</th>
       <td>2017-07-16</td>
       <td>Cool down..</td>
       <td>2505.241788</td>
@@ -2152,7 +2174,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-17 18:30:54-07:00</th>
+      <th>2017-07-17 19:00</th>
       <td>2017-07-23</td>
       <td>[POOL] post Tahoe..</td>
       <td>5030.606000</td>
@@ -2160,7 +2182,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-18 19:51:20-07:00</th>
+      <th>2017-07-18 20:00</th>
       <td>2017-07-23</td>
       <td>[POOL] coach Dave is THE Best</td>
       <td>4400.030474</td>
@@ -2168,7 +2190,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-19 06:21:53-07:00</th>
+      <th>2017-07-19 06:00</th>
       <td>2017-07-23</td>
       <td>Straight to the Point</td>
       <td>5011.686547</td>
@@ -2176,7 +2198,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-19 18:47:04-07:00</th>
+      <th>2017-07-19 19:00</th>
       <td>2017-07-23</td>
       <td>[POOL] just a lil sumthing</td>
       <td>3062.108000</td>
@@ -2184,7 +2206,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-21 21:16:22-07:00</th>
+      <th>2017-07-21 21:00</th>
       <td>2017-07-23</td>
       <td>9 to 5: Dusk till Dawn.</td>
       <td>27025.399681</td>
@@ -2192,7 +2214,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-23 15:57:29-07:00</th>
+      <th>2017-07-23 16:00</th>
       <td>2017-07-23</td>
       <td>Partied too hard...</td>
       <td>1464.781234</td>
@@ -2200,7 +2222,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-25 19:12:57-07:00</th>
+      <th>2017-07-25 19:00</th>
       <td>2017-07-30</td>
       <td>[POOL] ease back into it</td>
       <td>1760.055934</td>
@@ -2208,7 +2230,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-26 18:30:00-07:00</th>
+      <th>2017-07-26 18:00</th>
       <td>2017-07-30</td>
       <td>[POOL] that was rough</td>
       <td>4046.357000</td>
@@ -2216,7 +2238,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-28 06:45:00-07:00</th>
+      <th>2017-07-28 07:00</th>
       <td>2017-07-30</td>
       <td>[POOL] Kris Destroyed me</td>
       <td>4046.357000</td>
@@ -2224,7 +2246,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-29 08:00:25-07:00</th>
+      <th>2017-07-29 08:00</th>
       <td>2017-07-30</td>
       <td>[POOL] great job Camille!!!</td>
       <td>6014.855000</td>
@@ -2232,7 +2254,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-07-31 07:18:24-07:00</th>
+      <th>2017-07-31 07:00</th>
       <td>2017-08-06</td>
       <td>Got bullied by a seal!</td>
       <td>3059.920780</td>
@@ -2240,7 +2262,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-07-31 18:47:33-07:00</th>
+      <th>2017-07-31 19:00</th>
       <td>2017-08-06</td>
       <td>[POOL] yawn.....</td>
       <td>3062.108000</td>
@@ -2248,7 +2270,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-08-01 19:19:50-07:00</th>
+      <th>2017-08-01 19:00</th>
       <td>2017-08-06</td>
       <td>[POOL] bonking ain't fun</td>
       <td>4046.357000</td>
@@ -2256,7 +2278,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-08-02 06:58:15-07:00</th>
+      <th>2017-08-02 07:00</th>
       <td>2017-08-06</td>
       <td>This feels great!</td>
       <td>2586.059567</td>
@@ -2264,7 +2286,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-03 06:14:20-07:00</th>
+      <th>2017-08-03 06:00</th>
       <td>2017-08-06</td>
       <td>Ripping Flood!</td>
       <td>8026.769317</td>
@@ -2272,7 +2294,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-05 20:41:24-07:00</th>
+      <th>2017-08-05 21:00</th>
       <td>2017-08-06</td>
       <td>Try again. Fail again. Fail better.</td>
       <td>5740.686973</td>
@@ -2280,7 +2302,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-08 06:31:19-07:00</th>
+      <th>2017-08-08 07:00</th>
       <td>2017-08-13</td>
       <td>Always Be Ebbing</td>
       <td>2518.365108</td>
@@ -2288,7 +2310,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-08 19:15:00-07:00</th>
+      <th>2017-08-08 19:00</th>
       <td>2017-08-13</td>
       <td>[POOL] Dave's choice</td>
       <td>4046.357000</td>
@@ -2296,7 +2318,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-08-09 18:30:00-07:00</th>
+      <th>2017-08-09 18:00</th>
       <td>2017-08-13</td>
       <td>[POOL] Welcome Joe!!</td>
       <td>4575.992323</td>
@@ -2304,7 +2326,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-08-10 06:37:10-07:00</th>
+      <th>2017-08-10 07:00</th>
       <td>2017-08-13</td>
       <td>Feeling great!</td>
       <td>5458.207510</td>
@@ -2312,7 +2334,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-10 18:20:46-07:00</th>
+      <th>2017-08-10 18:00</th>
       <td>2017-08-13</td>
       <td>Double trouble with mah ol' lady!</td>
       <td>1363.512948</td>
@@ -2320,7 +2342,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-11 06:45:22-07:00</th>
+      <th>2017-08-11 07:00</th>
       <td>2017-08-13</td>
       <td>Five Coves Friday is Back!!!</td>
       <td>7826.201243</td>
@@ -2328,7 +2350,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-12 06:18:37-07:00</th>
+      <th>2017-08-12 06:00</th>
       <td>2017-08-13</td>
       <td>Let the taper begin!!</td>
       <td>22669.441690</td>
@@ -2336,7 +2358,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-15 07:05:15-07:00</th>
+      <th>2017-08-15 07:00</th>
       <td>2017-08-20</td>
       <td>Rogue Gas House in the Ebb!</td>
       <td>3452.089326</td>
@@ -2344,7 +2366,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-15 19:14:38-07:00</th>
+      <th>2017-08-15 19:00</th>
       <td>2017-08-20</td>
       <td>[POOL] Just to get wet</td>
       <td>2111.979632</td>
@@ -2352,7 +2374,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-08-16 18:30:00-07:00</th>
+      <th>2017-08-16 18:00</th>
       <td>2017-08-20</td>
       <td>[POOL] IM dip</td>
       <td>3062.108000</td>
@@ -2360,7 +2382,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-08-17 17:33:51-07:00</th>
+      <th>2017-08-17 18:00</th>
       <td>2017-08-20</td>
       <td>Afternoon dip...</td>
       <td>1455.485549</td>
@@ -2368,7 +2390,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-18 06:22:57-07:00</th>
+      <th>2017-08-18 06:00</th>
       <td>2017-08-20</td>
       <td>Swimming over a hill!</td>
       <td>6155.602607</td>
@@ -2376,7 +2398,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-19 08:27:15-07:00</th>
+      <th>2017-08-19 08:00</th>
       <td>2017-08-20</td>
       <td>Dat flood tho</td>
       <td>5187.648396</td>
@@ -2384,7 +2406,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-20 15:34:52-07:00</th>
+      <th>2017-08-20 16:00</th>
       <td>2017-08-20</td>
       <td>In the Bay with my Bae</td>
       <td>1999.993968</td>
@@ -2392,7 +2414,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-21 18:30:32-07:00</th>
+      <th>2017-08-21 19:00</th>
       <td>2017-08-27</td>
       <td>[POOL]  low yardage high intensity</td>
       <td>4265.079000</td>
@@ -2400,7 +2422,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-08-22 18:59:43-07:00</th>
+      <th>2017-08-22 19:00</th>
       <td>2017-08-27</td>
       <td>Away from temptations of quitting</td>
       <td>2888.770815</td>
@@ -2408,7 +2430,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-23 18:30:54-07:00</th>
+      <th>2017-08-23 19:00</th>
       <td>2017-08-27</td>
       <td>[POOL] Dr. Denton's finest</td>
       <td>4400.030474</td>
@@ -2416,7 +2438,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-08-24 06:39:56-07:00</th>
+      <th>2017-08-24 07:00</th>
       <td>2017-08-27</td>
       <td>Gassy and oily</td>
       <td>5002.718945</td>
@@ -2424,7 +2446,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-26 08:00:00-07:00</th>
+      <th>2017-08-26 08:00</th>
       <td>2017-08-27</td>
       <td>[POOL] Cheap Yards</td>
       <td>3499.552000</td>
@@ -2432,7 +2454,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>pool</td>
     </tr>
     <tr>
-      <th>2017-08-28 16:30:24-07:00</th>
+      <th>2017-08-28 17:00</th>
       <td>2017-09-03</td>
       <td>Floating around...</td>
       <td>1601.701206</td>
@@ -2440,7 +2462,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-29 07:00:56-07:00</th>
+      <th>2017-08-29 07:00</th>
       <td>2017-09-03</td>
       <td>Can the taper be done pleeze?</td>
       <td>1568.564823</td>
@@ -2448,7 +2470,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-30 19:12:43-07:00</th>
+      <th>2017-08-30 19:00</th>
       <td>2017-09-03</td>
       <td>Swim with Meghan!</td>
       <td>1581.031977</td>
@@ -2456,7 +2478,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-08-31 19:13:33-07:00</th>
+      <th>2017-08-31 19:00</th>
       <td>2017-09-03</td>
       <td>Short &amp; Sweet!</td>
       <td>719.923463</td>
@@ -2464,7 +2486,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-09-01 07:45:40-07:00</th>
+      <th>2017-09-01 08:00</th>
       <td>2017-09-03</td>
       <td>[MISC] not even a watch</td>
       <td>880.027967</td>
@@ -2472,7 +2494,7 @@ All through the training I made no mystery of my goal since I find that stating 
       <td>open water</td>
     </tr>
     <tr>
-      <th>2017-09-03 23:32:51-07:00</th>
+      <th>2017-09-04 00:00</th>
       <td>2017-09-03</td>
       <td>Catalina (until GPS bailed)</td>
       <td>12987.712360</td>
@@ -2481,7 +2503,5 @@ All through the training I made no mystery of my goal since I find that stating 
     </tr>
   </tbody>
 </table>
-
-
 
 [source](https://github.com/mrpozzi/mrpozzi.github.io/blob/master/notebooks/CatalinaTrainingDashboard.ipynb)
