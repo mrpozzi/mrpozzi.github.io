@@ -8,8 +8,9 @@ image: /images/CatalinaMan.jpg
 image-sm: /images/CatalinaMan.jpg
 ---
 
-I am based in San Francisco and member of the two Open Water Clubs in town: the [Dolphin Club](http://www.dolphinclub.org/) and the Mighty [South End](http://serc.com/).
+This is the account of my training for the Catalina Channel in September 2017 in the hope of sharing the learnings I collected.
 
+I am based in San Francisco and member of the two Open Water Clubs in town: the [Dolphin Club](http://www.dolphinclub.org/) and the Mighty [South End](http://serc.com/).
 My first approach to Marathon swimming has been in 2015/2016, training for Bay to Breakers. By the end of 2016, taking further steps in the world of Marathon Swimming, I decided I was ready to tackle some serious Channel Swimming. 
 
 My friends [Andrew](http://nighttrainswimmers.org/swimmers/andrew-wynn/), [Dave](http://nighttrainswimmers.org/swimmers/david-holscher/) and I decided to go for the Catalina Channel. This covered all the basis: 
