@@ -95,7 +95,7 @@ We ended up following the plan quite closely, hitting above the mark for most of
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #007A87;
+    background-color: #2292A4;
     color: white;
 }
 </style>
@@ -259,7 +259,7 @@ The weekly yardage was our actual goal and we did hit it most of the times, stay
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #007A87;
+    background-color: #2292A4;
     color: white;
 }
 </style>
