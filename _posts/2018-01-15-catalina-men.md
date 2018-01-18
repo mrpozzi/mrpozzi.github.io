@@ -95,7 +95,7 @@ We ended up following the plan quite closely, hitting above the mark for most of
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #2292A4;
+    background-color: #546A76;
     color: white;
 }
 </style>
