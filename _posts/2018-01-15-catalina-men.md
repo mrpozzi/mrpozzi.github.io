@@ -83,13 +83,13 @@ We ended up following the plan quite closely, hitting above the mark for most of
 }
 
 .dataframe td, .customers th {
-    border: 1px solid #ddd;
+    border: 1px solid #F5EFED;
     padding: 8px;
 }
 
 .dataframe tr:nth-child(even){background-color: #f2f2f2;}
 
-.dataframe tr:hover {background-color: #ddd;}
+.dataframe tr:hover {background-color: #F5EFED;}
 
 .dataframe th {
     padding-top: 12px;
@@ -239,30 +239,6 @@ The weekly yardage was our actual goal and we did hit it most of the times, stay
 
 
 <div>
-<style>
-.dataframe {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.dataframe td, .customers th {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-.dataframe tr:nth-child(even){background-color: #f2f2f2;}
-
-.dataframe tr:hover {background-color: #ddd;}
-
-.dataframe th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #2292A4;
-    color: white;
-}
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
