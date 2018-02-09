@@ -405,7 +405,7 @@ As I said above this swim would have not been possible without the awesome suppo
 * Alex for being a solid kayaker, a wise counselor and an amazing friend, always taking a great care of everyone.
 * Meghan for bravely enduring seasickness and my driving to be there to support me through the darkest part of my swim.
 * Duke for all the wisdom and the support, including spending an insane amount of time on a kayak to keep me in the water.
-* Dave and all the NT crew for all the support, advise, and swimming together. Special gratitude to ([Bob](http://nighttrainswimmers.org/swimmers/bob-tandler/) lagoon.
+* Dave and all the NT crew for all the support, advise, and swimming together. Special gratitude to [Bob](http://nighttrainswimmers.org/swimmers/bob-tandler/) for welcoming us to the Lagoon.
 * My swimming family at the DC, SERC, and Tsunami for all the miles crunched together.
 * [Luke](https://www.instagram.com/fiascoluke/) and Giacomino for being the cutest supporters I could've hoped for.
 
