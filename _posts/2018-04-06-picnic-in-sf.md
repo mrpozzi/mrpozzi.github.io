@@ -2,7 +2,7 @@
 layout: post 
 title: "Picnic in San Francisco" 
 date: 2018-04-06 8:30:00 
-categories: applications, data-mining, scraping 
+categories: applications data-mining scraping 
 featured_image: /images/rainy_bridge.jpg
 ---
 
