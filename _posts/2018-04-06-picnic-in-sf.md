@@ -3,13 +3,14 @@ layout: post
 title: "Picnic in San Francisco" 
 date: 2018-04-06 8:30:00 
 categories: applications data-mining scraping 
-featured_image: /images/rainy_bridge.jpg
+image: /images/rainy_bridge.jpg
 ---
 
 
 
 
-My beloved [SF Tsunami Master Team](http://sftsunami.org/) had planned a great picnic for this week end. For the second year in a row the plan had to be canceled due to inclement weather. Just like the year before.
+My beloved [SF Tsunami Master Team](http://sftsunami.org/) had planned a great picnic for this week end. Just like the year before the plan had to be canceled due to inclement weather: pouring rain throught the whole weekend.
+
 
 I admit I sneered at the idea of having the picnic the same month as last year, considering that it got canceled once. However, forming opinions based on a sample size of two with a sprinkle of gut feeling on top is not the way a Scientist does things, so I thought it would be interesting and constructive to pull some data to validate or disprove my prejudice and to provide a valid alternative.
 
