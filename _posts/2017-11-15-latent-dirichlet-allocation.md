@@ -2,7 +2,7 @@
 layout: post
 title: "Inside the Black Box"
 date: 2017-11-15 8:30:00
-categories: nlp
+categories: nlp, bayes
 description: Intuition behind the Latent Dirichlet Allocation.
 image: /images/lda_graphical_model.png
 image-sm: /images/lda_graphical_model.png
