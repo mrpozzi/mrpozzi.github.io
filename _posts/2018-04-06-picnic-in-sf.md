@@ -27,20 +27,34 @@ So, it turns out that the data confirms my hypothesis that having a picnic in SF
 ![png](/images/PicnicInSF_9_1.png)
 
 
+
+
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+  <style>
+.dataframe {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+.dataframe td, .customers th {
+    border: 1px solid #F5EFED;
+    padding: 8px;
+}
 
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tr:nth-child(even){background-color: #f2f2f2;}
+
+.dataframe tr:hover {background-color: #F5EFED;}
+
+.dataframe th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #546A76;
+    color: white;
+}
 </style>
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
