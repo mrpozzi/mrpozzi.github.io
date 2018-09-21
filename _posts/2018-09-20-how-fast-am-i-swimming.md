@@ -3,7 +3,7 @@ layout: post
 title: "How Fast am I Swimming?"
 date: 2018-09-20 8:30:00
 categories: marathonswimming
-featured_image: /images/2018_season/tahoe_italia.jpeg
+image: /images/2018_season/tahoe_italia.jpeg
 ---
 I personally always have trouble converting from my hundred yards pace to my mile time, or to go from my total time to my 100 yards pace. This is particularly important in marathon swimming, when your pace is crucial to time your crossing and do the dance with the tides.
 
