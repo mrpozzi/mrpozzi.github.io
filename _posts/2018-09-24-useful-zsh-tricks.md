@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Useful (z)sh tricks"
-date: 2018-10-24 8:30:00
+date: 2018-09-24 8:30:00
 categories: bash productivity engineering
 description: Some tricks to increase productivity with (z)shell
 image: /images/Zsh-demo.png
