@@ -27,7 +27,7 @@ Unfortunately the old school attribution systems rely on the infamous "Last Clic
 
 This is problematic because it doesn't distinguish between incremental and organic sales, but it also has a larger bias. 
 
-Most users in the USA and Europe own multiple devices and log in from desktop, mobile, and tab. This makes tracking the user journey challenging. Cookies being deleted and multiple users logging in from the same device are just two of the issues with building and mantaining a device graph that could help identifying to which ads the user has been exposed. 
+Most users in the USA and Europe own multiple devices and log in from desktop, mobile, and tab. This makes tracking the user journey challenging. Cookies being deleted and multiple users logging in from the same device are just two of the issues with building and mantaining a device graph that could help identifying to which ads the user has been exposed to. 
 
 ![jpg](/images/online_marketing_measurements/cross_device.jpg)
 
@@ -36,7 +36,7 @@ Due to this issue display channel (e.g. Facebook, Instagram, YouTube, etc.) are 
 
 In a "Last Click" world SEM marketing gets a large share of credit, also because users are likely to Google relevant keyword to be redirected to the site, which should be considered an organic (i.e. not incremental) purchase.
 
-To understand how ridicolous "Last Click" attribution is, imagine to be proposing to your significant other, and if it would be reasonable to believe that the ring is the sole contributor to their positive response.
+To understand how ridicolous "Last Click" attribution is, imagine to be proposing to your significant other, and if it would be reasonable to believe that the engagement ring is the sole contributor to their positive response.
 
 Fortunately statisticians have plenty of tricks up their sleeves and many experimental designs, dating back few centuries, can come to the rescue.
 
@@ -117,14 +117,14 @@ Experiment Tracking
 http://www.unofficialgoogledatascience.com/2016/06/estimating-causal-effects-using-geo.html
 
 
-## Data validation
+## Data Centric Approach
 
 
-
+validation
 External data sources
 Brand Metrics (YouGov)
 Spend Data
-Control Variables (MMM)
+Control Variables
 
 
 Fail Fast
@@ -133,10 +133,26 @@ More Eyes on the Data The Best
 Stakeholders have a better sense for the data
 
 
+Measure it or don't do it
+
+
 ## Resources
 
-- Field Experiments
-- Mostly Harmless
-- Facebook API
-- Google paper
+- [Field Experiments](https://www.amazon.com/Field-Experiments-Design-Analysis-Interpretation/dp/0393979954)
+- [Mostly Harmless Econometrics](http://a.co/d/9OWYtHM)
+- [Google paper on Ghost Ads](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2620078)
+
 http://www.unofficialgoogledatascience.com/2016/06/estimating-causal-effects-using-geo.html
+
+https://www.summitllc.us/synthetic-control-method
+
+https://google.github.io/CausalImpact/CausalImpact.html
+
+
+
+## Glossary
+
+- SEM = Search Engine Marketing. Sponsored ads at the top of a Search Engine search.
+- SEO =
+- ROAS = Return Of Ad Spend
+- 
