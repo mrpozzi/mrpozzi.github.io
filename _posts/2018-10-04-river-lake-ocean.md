@@ -41,7 +41,7 @@ A classic of this strategy is to hit [Tsunami's](http://sftsunami.org/swim-coach
 
 ## The Execution
 
-**WRONG!**
+> WRONG!
 
 This didn't work out at all. My execution was very poor and I had to figure out how to adjust and roll with the punches. As you can see below my weekly yardage hardly surpassed 30k and hovered between 20k and 25k for most of the time.
 
@@ -150,7 +150,11 @@ This didn't work out at all. My execution was very poor and I had to figure out 
 
 
 
+
+
+
 ### Year on Year
+
 
 To give a better idea of how much less this is wrt last year let's compare the two seasons directly
 
