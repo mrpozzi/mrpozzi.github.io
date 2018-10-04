@@ -466,7 +466,7 @@ I also tuned my understanding of nutrition and the gear I use:
 
 
 
-- ** Total Yards: 936120 **
+-  Total Yards: 936120 
 
 
 
