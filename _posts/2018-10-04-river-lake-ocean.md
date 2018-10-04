@@ -21,6 +21,7 @@ These are quite different swims, being in quite different bodies of water, and m
 
 In my mind I was going to just rinse and repeat what I did the year before to prepare for the Catalina Channel. Basically keep at a solid 30k yards per week, allowing for peaks around 35k/40k. Using the pool to get some cheap yards in winter, when water is cold, and to fill up the bucket later in the season too. 
 
+
 | Month    | Days | Yardage |    Yds/Day   |  Yds/Week |  max hrs  |
 | :------- |:---: | :-----: | :----------: | :-------: | :-------: |
 | November | 30   |  80000  | 2,857.14285  |   20000   |    7.6    |
@@ -32,7 +33,11 @@ In my mind I was going to just rinse and repeat what I did the year before to pr
 | May      | 31   | 140000  | 4516.129032  |   31615   |    8.5    |
 | June     | 30   | 150000  | 5000         |   35000   |   11.4    |
 
-A classic of this strategy is to hit [Tsunami's](http://sftsunami.org/swim-coaches/) Saturday workouts for 7k in 2 hours and then finish off with another hour or so in the Bay. It worked once, it must work again(and again and again....)
+
+
+A classic of this strategy is to hit [Tsunami's](http://sftsunami.org/swim-coaches/) Saturday workouts for 7k in 2 hours and then finish off with another hour or so in the Bay. It worked once, it must work again (and again and again....)
+
+
 
 ## The Execution
 
@@ -255,7 +260,11 @@ So I swam 20% less yards than last year. Pool was drastically decreased by 40% w
 
 
 
+
+
 ### The World's smallest violin
+
+
 
 I hate complaints and don't see the point of finding excuses: my plan didn't work and I didn't have the discipline and mental fortitude to follow up.
 
@@ -270,7 +279,7 @@ I even considered calling off the season... but I'm glad I didn't since I ended 
 
 
 
-![png](../images/RiverLakeOcean_files/RiverLakeOcean_20_0.png)
+![png](/images/RiverLakeOcean_files/RiverLakeOcean_20_0.png)
 
 
 ### Paradigm shift
@@ -288,7 +297,7 @@ Another interesting approach is to focus more on intensity. Between a 8 hours sw
 This is not a way to get around putting in yards and time, but a way to put in more quality than quantity, or, to put in plenty of quality yards instead of a huge amount of uneventful ones.
 
 
-![png](../images/RiverLakeOcean_files/RiverLakeOcean_23_0.png)
+![png](/images/RiverLakeOcean_files/RiverLakeOcean_23_0.png)
 
 
 ### Crosstraining
@@ -296,7 +305,7 @@ This is not a way to get around putting in yards and time, but a way to put in m
 Crosstraining also helped immensely in switching it up and in getting more strength. This specially helped me to strengthen up my hips (which gave me issues last year) and I'll be going down the route of more running, more Yoga and more strength training at [Body Works SF](https://www.bodyworksf.com/).
 
 
-![png](../images/RiverLakeOcean_files/RiverLakeOcean_26_0.png)
+![png](/images/RiverLakeOcean_files/RiverLakeOcean_26_0.png)
 
 
 ## The Crossings
@@ -374,7 +383,7 @@ Since the cramps were annoying I had to get a few feeds of just water (hydration
 I finished in 10h 31' and I was stoked with it (specially since I miscounted my feeds and I thought I was on the 12 hours range).
 
 
-![png](../images/2018_season/tahoe_track.JPG)
+![png](/images/2018_season/tahoe_track.JPG)
 
 ### Gay Games 2018: Paris!
 
@@ -383,7 +392,7 @@ As an "Intermezzo" in this jam packed season, Kris and I traveled to Paris to co
 
 Competing in the pool really highlighted how much I need some solid quality work in the pool and how bad my technique got. Back to the drawing board....
 
-![alt text](../images/2018_season/Paris_2018.png)
+![alt text](/images/2018_season/Paris_2018.png)
 
 
 ### Anacapa
@@ -408,13 +417,13 @@ Water temp dropped in the days before the swim, but it was a warm 66F around the
 
 The swim was quite simple, just swimming and enjoying the wonderful water a lot! Finished in 5 hours and 48'. First Italian to achieve the California Triple Crown!
 
-![alt text](../images/2018_season/ca-tc.png)
+![alt text](/images/2018_season/ca-tc.png)
 
-![alt text](../images/2018_season/anacapa_crossing_gps.png)
+![alt text](/images/2018_season/anacapa_crossing_gps.png)
 
-![alt text](../images/2018_season/anacapa_speed.png)
+![alt text](/images/2018_season/anacapa_speed.png)
 
-![alt text](../images/2018_season/anacapa_water_temp.png)
+![alt text](/images/2018_season/anacapa_water_temp.png)
 
 ## Lessons Learned
 
@@ -455,7 +464,11 @@ I also tuned my understanding of nutrition and the gear I use:
 ## Appendix: The Full Training 
 
 
-##### Total Yards: 936120 
+
+
+- ** Total Yards: 936120 **
+
+
 
 
 
