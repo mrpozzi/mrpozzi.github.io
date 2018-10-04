@@ -279,7 +279,7 @@ I even considered calling off the season... but I'm glad I didn't since I ended 
 
 
 
-![png](/images/RiverLakeOcean_files/RiverLakeOcean_20_0.png)
+![png](/images/2018_season/RiverLakeOcean_files/RiverLakeOcean_20_0.png)
 
 
 ### Paradigm shift
@@ -297,7 +297,7 @@ Another interesting approach is to focus more on intensity. Between a 8 hours sw
 This is not a way to get around putting in yards and time, but a way to put in more quality than quantity, or, to put in plenty of quality yards instead of a huge amount of uneventful ones.
 
 
-![png](/images/RiverLakeOcean_files/RiverLakeOcean_23_0.png)
+![png](/images/2018_season/RiverLakeOcean_files/RiverLakeOcean_23_0.png)
 
 
 ### Crosstraining
@@ -305,7 +305,7 @@ This is not a way to get around putting in yards and time, but a way to put in m
 Crosstraining also helped immensely in switching it up and in getting more strength. This specially helped me to strengthen up my hips (which gave me issues last year) and I'll be going down the route of more running, more Yoga and more strength training at [Body Works SF](https://www.bodyworksf.com/).
 
 
-![png](/images/RiverLakeOcean_files/RiverLakeOcean_26_0.png)
+![png](/images/2018_season/RiverLakeOcean_files/RiverLakeOcean_26_0.png)
 
 
 ## The Crossings
