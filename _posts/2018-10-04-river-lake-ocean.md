@@ -154,7 +154,9 @@ This didn't work out at all. My execution was very poor and I had to figure out 
 
 To give a better idea of how much less this is wrt last year let's compare the two seasons directly
 
-##### Year on Year: 2017/2018 = 81.263238% 2016/2017
+
+
+> Year on Year: 2017/2018 = 81.263238% 2016/2017
 
 
 <div>
@@ -465,8 +467,7 @@ I also tuned my understanding of nutrition and the gear I use:
 
 
 
-
--  Total Yards: 936120 
+> Total Yards: 936120 
 
 
 
