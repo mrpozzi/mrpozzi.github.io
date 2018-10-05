@@ -318,7 +318,7 @@ Crosstraining also helped immensely in switching it up and in getting more stren
 
 ### 20 Bridges
 
-Signing up for this swim is one of its main challenges: just like Hamilton tickets you have to be online and ready on Novemember 1st at 9am Pacific time and even a small delay may put you on the waitlist or worse. This is a super popular swim which gathers an extremely international crowd. Be sure to have a few dates options: the swim has 4 monthly dates, from June to September, 15 swimmers per date. Good Luck!
+Signing up for this swim is one of its main challenges: just like Hamilton tickets you have to be online and ready on November 1st at 9am Pacific time and even a small delay may put you on the waitlist or worse. This is a super popular swim which gathers an extremely international crowd. Be sure to have a few dates options: the swim has 4 monthly dates, from June to September, 15 swimmers per date. Good Luck!
 
 
 On this swim I had my own parents as my crew, which they really loved! They finally got to see how much fun I'm having doing this and it made clear that I'm not suffering but full of joy (even when things aren't easy). They brought all their Love and cheered all the way through, I am so grateful. Only advice for the crew is to be ready for rain or shine, it could get extremely hot (I swam through a heat wave) and not all boats have a toilet, even if they claim to. Our captain (Lenny Brown of "O C'mon") pointed at a jar when we asked him where the toilet was. So.. be prepared...
