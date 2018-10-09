@@ -11,17 +11,11 @@ description: 'Data Science: Tales from the Trenches' # A brief tagline for your 
 url: ""
 twitter_username: mrpozzi
 
-# List of links in the navigation bar
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Long Swims DB: "https://db.marathonswimmers.org/p/luca-pozzi/."
-  #Author's home: "http://deanattali.com"
-
 # Profile settings
 name: Luca E. Pozzi
 profile_img: /images/profile.jpg
 profile: Data Scientist. Born and raised in Italy. Marathon Swimmer.
+uri: https://db.marathonswimmers.org/p/luca-pozzi/
 social:
   github: https://github.com/mrpozzi
   linkedin: https://www.linkedin.com/in/lucaepozzi/
