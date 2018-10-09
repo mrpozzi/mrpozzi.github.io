@@ -9,12 +9,12 @@ google_analytics:
 title: 'Drowning in Data'
 description: 'Data Science: Tales from the Trenches' # A brief tagline for your site
 url: ""
-twitter_username: 
+twitter_username: mrpozzi
 
 # Profile settings
 name: Luca E. Pozzi
 profile_img: /images/profile.jpg
-profile: blah
+profile: 'Data Scientist. Born and raised in Italy. [Marathon Swimmer](https://db.marathonswimmers.org/p/luca-pozzi/).'
 social:
   github: https://github.com/mrpozzi
   linkedin: https://www.linkedin.com/in/lucaepozzi/
