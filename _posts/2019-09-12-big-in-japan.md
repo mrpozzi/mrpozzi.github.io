@@ -7,7 +7,7 @@ image: /images/2019_japan/dragons.jpeg
 ---
 
 
-![](../images/2019_japan/dragons.jpeg)
+![](/images/2019_japan/dragons.jpeg)
 
 Last year, before my [Anacapa](https://medium.com/drowning-in-data/river-lake-pool-and-ocean-drowning-in-data-8c0a29a94609) swim, I did one last "long" swim with [Steve](http://openwaterpedia.com/index.php?title=Steve_Walker) and [Cam](http://openwaterpedia.com/index.php?title=Cameron_Bellamy) who was just back from his successful Tsugaru Crossing (and sporting the awesome cap gifted when you make the crossing). On the way back from the Golden Gate I picked their brains about swims. Next year (Sept. 2020) I'm booked for an English Channel Attempt, but I didn't want to go empty handed this year, and I wanted a pleasing destination, not to be too much of a pain in the ass for my wife Kris. Cam's experience in Tsugaru seemed very positive, so I asked them to send me the contact. A conversation with [Ryan](http://openwaterpedia.com/index.php?title=Ryan_Utsumi) (back from a successful Tsugaru and North Channel) solidified my inspiration. Ryan's advice is always a great guidance and I value him greatly as a menthor and a Friend.
 
@@ -106,17 +106,6 @@ Weekly averages and total distance will seem low compared to what I was planning
 
 
 
-```python
-from IPython.display import Markdown
-
-Markdown("""
-##### Total Yards: {0} 
-""".format(training.total_yards))
-```
-
-
-
-
 
 ##### Total Yards: 640026 
 
@@ -133,13 +122,13 @@ I have to thank The Pod, i.e. [Lauren Au](https://openwaterswimming.com/2019/09/
 
 
 
-![png](../images/2019_japan/output_12_0.png)
+![png](/images/2019_japan/output_12_0.png)
 
 
 Looking at the Indoor/Outdoor breakdown it pops out how my season was massively open water centered, with very minor pool adjustments. This is a bit contrary to my plan to be a better pool swimmer to get the quality work, but it took a lot of pressure out since open water is way more fun. 
 
 
-![png](../images/2019_japan/output_14_0.png)
+![png](/images/2019_japan/output_14_0.png)
 
 
 ## Crosstraining
@@ -260,7 +249,7 @@ While swimming took most of my focus, supporting with extra sessions in the gym 
 
 
 
-![png](../images/2019_japan/output_18_0.png)
+![png](/images/2019_japan/output_18_0.png)
 
 
 ## Sticky Training
@@ -417,7 +406,7 @@ Being swept away at the final cape usually makes the difference between making i
 The boats are quite minimal Japanese fishing boats. They're low on the water (so you're close to your crew and you don't need a long rope for your feeds) and have no shelter, so your crew should be ready for rain or shine. It's large enough to move around, but there's nowhere to sit, so be prepared to borrow crates or seats from the hotel. The bathroom "situation" is also particular, as you can see in the picture.
 
 
-![bathroom facility on the boat](../images/2019_japan/tsugaru_boat.jpg)
+![bathroom facility on the boat](/images/2019_japan/tsugaru_boat.jpg)
 
 
 The boat will be fully illuminated (each swimmer is actually escorted by two boats) and will tow an underwater streamer on the side which is extremely helpful to give you something to focus on and to keep the track. Basically you stare at the line on the bottom, like in the pool, and don't have to worry about sighting.
@@ -452,7 +441,7 @@ I wasn’t going to be pulled so I swam the last few hours out of stubborness! M
 
 Beer and Onsen with Kris and my parents (who crewed excellently for me) crowned the celebrations! 
 
-![](../images/2019_japan/onsen_tappi.jpg)
+![](/images/2019_japan/onsen_tappi.jpg)
 
 My outstanding crew was composed by my parents Laura and Kiki, veteran of my 20 Bridges, my badass wife Kris (who just triumphed over a [Vikingsholm swim](https://www.swimtahoe.com/tahoe-viking-swim/) in Tahoe, and the interpreter Jeremy Eaton, who helped out immensely and was super fun to hang with. I owe then a lot since this is a team sport and you can't make it alone.
 
@@ -462,7 +451,7 @@ My outstanding crew was composed by my parents Laura and Kiki, veteran of my 20 
 # Official time  8h20’58"! 
 
 
-![](../images/2019_japan/tsugaru_wide.jpg)
+![](/images/2019_japan/tsugaru_wide.jpg)
 
 Here is [a shout out](http://www.tsugaruchannelswimming.com/2019/09/luca-pozzi-swims-through-night-across.html) from the channel swimming site, below my actual track (not quite as S shaped as the article mentions) and my speed through the crossing (which I'm quite proud of).
 
@@ -472,9 +461,9 @@ I started high on the jitters of even having the chance to swim and I kept fueli
 
 
 
-![](../images/2019_japan/TsugaruTrack.png)
+![](/images/2019_japan/TsugaruTrack.png)
 
-![](../images/2019_japan/TsugaruSpeed.png)
+![](/images/2019_japan/TsugaruSpeed.png)
 
 
 [Here](https://track.rs/mrpozzitsugaru/) the full tracker.
