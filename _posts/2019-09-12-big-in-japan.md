@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Big in Japan"
-date: 2019-10-01 8:30:00
+date: 2019-10-01 6:30:00
 categories: marathonswimming
 image: /images/2019_japan/dragons.jpeg
 ---
