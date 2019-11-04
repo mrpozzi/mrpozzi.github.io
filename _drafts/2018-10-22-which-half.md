@@ -17,7 +17,7 @@ their return. What makes online marketing different is the unprecedented possibi
 
 ## Attribution & Incrementality
 
-In order to fairly estimate the ROI we need to be able to attribute incremental purchases to the campaign that caused. We're not interested in reaching people that would purchased organically (i.e. on their own), but to reach people that would have not purchased had they not been reached by our ad. The difference between the two is the one between correlation and causation and can be exploited by targeting mechanisms. If we don't distinguish between organic and incremental purchases, a targeting algorithm would be rewarded for characterizing and targeting users that are more likely to buy, which would be "preaching to the choir".
+In order to fairly estimate the ROI we need to be able to attribute incremental purchases to the campaign that caused them. We're not interested in reaching people that would purchased organically (i.e. on their own), but to reach people that would have not purchased had they not been reached by our ad. The difference between the two is the one between correlation and causation and can be exploited by targeting mechanisms. If we don't distinguish between organic and incremental purchases, a targeting algorithm would be rewarded for characterizing and targeting users that are more likely to buy, which would be "preaching to the choir".
 
 What we want from our online campaigns is to reach those people that are to be convinced and to convince them to buy our product.
 
@@ -27,7 +27,7 @@ Unfortunately the old school attribution systems rely on the infamous "Last Clic
 
 This is problematic because it doesn't distinguish between incremental and organic sales, but it also has a larger bias. 
 
-Most users in the USA and Europe own multiple devices and log in from desktop, mobile, and tab. This makes tracking the user journey challenging. Cookies being deleted and multiple users logging in from the same device are just two of the issues with building and mantaining a device graph that could help identifying to which ads the user has been exposed to. 
+Most users in the USA and Europe own multiple devices and log in from desktop, mobile, and tab. This makes tracking the user journey challenging. Cookies being deleted and multiple users logging in from the same device are just two of the issues with building and mantaining a device graph that could help identifying which ads the user has been exposed to. 
 
 ![jpg](/images/online_marketing_measurements/cross_device.jpg)
 
@@ -57,19 +57,51 @@ The design of the experiment will depend on the nature of the advertising platfo
 
 The first method I'm going to describe is a very old technique from the world of Clinical Trials, and it's one of the methodologies used in Facebook's [Conversion Lift Study](https://www.facebook.com/help/399737743699353?helpref=page_content) tool.
 
+When trying to ascertain the effect of a targeting algorithm we can't compare the audience selected by the algorithm with a fixed control. This would reward cherry picking: if the algorithm was trained to select organic converters (i.e. users that were going to purchase anyway) we would over-estimate the performance of the algorithm, confusing organic behavior (correlation) with incremental effect (causation).
 
 
-Clinical Trials -> explanation of name
-Larger Socio-Economic Analyses -> vietnam vets
+Intent-To-Treat (ITT) is a technique to analyze experiments in which there is one-sided non-compliance, i.e. when some subjects in the treatment group do not receive the treatment. Excluding the Non-Takers from the analysis would result in selection bias but ignoring the problem and pretending all subjects in the treatment groups are equal would underestimate the effect or just measure something different (i.e. the effect of being assigned to the treatment group and not the effect of the treatment itself).
+
+The ITT principle can be summarized by "once randomized, always analyzed". [ICH](http://www.ich.org/fileadmin/Public_Web_Site/ICH_Products/Guidelines/Efficacy/E9/Step4/E9_Guideline.pdf) states  "The intention-to-treat [...] principle implies that the primary analysis should include all randomised subjects. Compliance with this principle would necessitate complete follow-up of all randomised subjects for study outcomes. In practice this ideal may be difficult to achieve [...]". The reason for the recommendation is due to the fact that an ITT analysis will give a robust estimate even when the data missingness (non-compliance) was not completely random.
+
+
+1. How many extra sales are caused by trying to show an ad to 100 people.
+2. How many extra sales are caused by 100 people seeing the ad.
+
+Not only ITT is not influenced from the lack of compliance and measures what is actionable (option 1), but, under few assumptions, it allows us to measure both.
+
+
+![jpg](/images/online_marketing_measurements/ITT_design.jpg)
+
+The above picture explains the setting quite clearly. Striped shirts represent high intent users which are bound to convert organically. In the toy example:
+
+* The treatment is neutral. The probability of converting after being exposed is the same of the organic rate, 50%
+* Reach is at 42%
+* The algorithm targets high intent users which are bound to convert anyway, hence 83% of the users in the treatment convert.
+* Due to the biased targeting only 25% of the Never-Takers convert.
+
+
+
+Facebook's Lift test tools uses an ITT analysis to measure incrementality. Since the targeting algorithm optimises for people more likely to convert, it would be hard to identify a comparable control (it would actually be extremely easy but it would require a change in the targeting algorithm similar to Google's Ghost Ads.)
+
+
+The split between treatment and control happens at a "Universe" level (i.e. all users in an audience eligible for an auction) and then the ad is shown to a subset of people in the treatment group. Eligibility for auction is logged for both Holdout and Test Group, and so is the impression, but the subset of control users that would have been exposed to the ad is not logged (red triangle in the plot below).
+
+
 
 ![jpg](/images/online_marketing_measurements/LiftFunnel.jpg)
 
-![jpg](/images/online_marketing_measurements/ITT_design.jpg)
 
 
 Easy math
 Easy to Implement 
-Hard to Power -> reach matters
+
+![jpg](/images/online_marketing_measurements/IIT_power_curves.jpeg)
+
+
+
+
+
 
 
 ### “Ghost” Ads
@@ -95,7 +127,9 @@ why more sophisticated targeting might give problems
 
 ### "Split" testing
 
+simple ABs
 
+easy to power but hard to measure immediate changes
 
 
 ### Campaign sizing 
@@ -111,6 +145,7 @@ Randomize by DMA
 Aggregate Results
 Large Scale Operation
 Loss
+diff in diff 
 synth control
 Experiment Tracking
 (pre-post)
@@ -132,6 +167,10 @@ Foster Data Culture
 More Eyes on the Data The Best
 Stakeholders have a better sense for the data
 
+MTA aka the Holy Grail
+
+MMM aka just tell me where to spend
+
 
 Measure it or don't do it
 
@@ -141,18 +180,20 @@ Measure it or don't do it
 - [Field Experiments](https://www.amazon.com/Field-Experiments-Design-Analysis-Interpretation/dp/0393979954)
 - [Mostly Harmless Econometrics](http://a.co/d/9OWYtHM)
 - [Google paper on Ghost Ads](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2620078)
-
-http://www.unofficialgoogledatascience.com/2016/06/estimating-causal-effects-using-geo.html
+- [Time Based Regression](http://www.unofficialgoogledatascience.com/2016/06/estimating-causal-effects-using-geo.html)
+https://google.github.io/CausalImpact/CausalImpact.html
 
 https://www.summitllc.us/synthetic-control-method
 
-https://google.github.io/CausalImpact/CausalImpact.html
 
 
 
 ## Glossary
 
 - SEM = Search Engine Marketing. Sponsored ads at the top of a Search Engine search.
-- SEO =
+- SEO = Search Engine Optimization.
 - ROAS = Return Of Ad Spend
-- 
+- MTA = Multi Touch Attribution.
+- MMM = Mixed Media Model.
+- ITT = Intetn To Treat
+- ATE =  Average Treatment Effect
