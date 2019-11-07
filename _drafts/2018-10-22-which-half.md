@@ -62,7 +62,9 @@ When trying to ascertain the effect of a targeting algorithm we can't compare th
 
 Intent-To-Treat (ITT) is a technique to analyze experiments in which there is one-sided non-compliance, i.e. when some subjects in the treatment group do not receive the treatment. Excluding the Non-Takers from the analysis would result in selection bias but ignoring the problem and pretending all subjects in the treatment groups are equal would underestimate the effect or just measure something different (i.e. the effect of being assigned to the treatment group and not the effect of the treatment itself).
 
-The ITT principle can be summarized by "once randomized, always analyzed". [ICH](http://www.ich.org/fileadmin/Public_Web_Site/ICH_Products/Guidelines/Efficacy/E9/Step4/E9_Guideline.pdf) states  "The intention-to-treat [...] principle implies that the primary analysis should include all randomised subjects. Compliance with this principle would necessitate complete follow-up of all randomised subjects for study outcomes. In practice this ideal may be difficult to achieve [...]". The reason for the recommendation is due to the fact that an ITT analysis will give a robust estimate even when the data missingness (non-compliance) was not completely random.
+The ITT principle can be summarized by "once randomized, always analyzed". [ICH](http://www.ich.org/fileadmin/Public_Web_Site/ICH_Products/Guidelines/Efficacy/E9/Step4/E9_Guideline.pdf) states  "The intention-to-treat [...] principle implies that the primary analysis should include all randomised subjects. Compliance with this principle would necessitate complete follow-up of all randomised subjects for study outcomes. In practice this ideal may be difficult to achieve [...]". The reason for the recommendation is due to the fact that an ITT analysis will give a robust estimate even when the data missingness (non-compliance) was not completely random. This would cover the clinical case of more/less severe patients not complying with the therapy, or, in our marketing case, of users being cherry-picked by an algorithm.
+
+In general, when trying to measure absolute incrementality (or lift) we can ask the following questions:
 
 
 1. How many extra sales are caused by trying to show an ad to 100 people.
@@ -76,10 +78,10 @@ Not only ITT is not influenced from the lack of compliance and measures what is 
 The above picture explains the setting quite clearly. Striped shirts represent high intent users which are bound to convert organically. In the toy example:
 
 * The treatment is neutral. The probability of converting after being exposed is the same of the organic rate, 50%
-* Reach is at 42%
+* Reach (i.e. % of treatment users who get the treatment) is at 42%
 * The algorithm targets high intent users which are bound to convert anyway, hence 83% of the users in the treatment convert.
-* Due to the biased targeting only 25% of the Never-Takers convert.
-
+* Due to the biased targeting only 25% of the Never-Takers (i.e. users in the treatment group who do not get treated) convert.
+* If we were to analyze this not in an ITT fashion we would be concluging that the incremental conversion rate is 33%
 
 
 Facebook's Lift test tools uses an ITT analysis to measure incrementality. Since the targeting algorithm optimises for people more likely to convert, it would be hard to identify a comparable control (it would actually be extremely easy but it would require a change in the targeting algorithm similar to Google's Ghost Ads.)
@@ -88,41 +90,56 @@ Facebook's Lift test tools uses an ITT analysis to measure incrementality. Since
 The split between treatment and control happens at a "Universe" level (i.e. all users in an audience eligible for an auction) and then the ad is shown to a subset of people in the treatment group. Eligibility for auction is logged for both Holdout and Test Group, and so is the impression, but the subset of control users that would have been exposed to the ad is not logged (red triangle in the plot below).
 
 
-
 ![jpg](/images/online_marketing_measurements/LiftFunnel.jpg)
 
 
+ITT designs are easy to implement and with some easy math we can go from "How many extra sales are caused by trying to show an ad to 100 people" to
+ "How many extra sales are caused by 100 people seeing the ad". The latter is equal to the first scaled (divided) by the reach.
 
-Easy math
-Easy to Implement 
+The drawback of ths design is that a low reach waters down the signal considerably, so reach needs to be considered in power calculations.
 
 ![jpg](/images/online_marketing_measurements/IIT_power_curves.jpeg)
 
 
+As a consequence of this fact, ITT is poorly suited to broad reach campaigns: such initiatives assume reaching few promising individuals within a wide audience, so they are intrinsically designed for a low reach and end up being underpowered. 
 
-
+In the next section we'll describe another design that can address this ssue.
 
 
 
 ### “Ghost” Ads
+
 
 Google
 Log “Potential Exposure”
 Ideal Setting
 
 
+
+When the targeting algorithm optimizes the selection of who is served the ad it becomes hard to identify the appropriate control. 
+
+ITT design compare groups at the assignment level, but this has limitation since the estimation can have a high level of uncertainty when reach percentage is low in the treatment group, which can result in a watering down of the signal.
+
+Another popular solution to this problem are Predictive Ghost Ads. This approach consist in using the same algorithm used for targeting to identify the users in the control group that "would have been served" the ad and use them as a comparable group to those in the treatment group who are actually served the ad.
+
+
 ![jpg](/images/online_marketing_measurements/ideal_setting.jpg)
 
 
-Extremely hard to implement
+In 3rd Generation systems the optimizer will be using features extracted from the site visits and will learn more about the users in the treatment group, potentially introducing bias since the same learning will not be possible for users in the control group. 2nd Generations systems, however, are using only user features and hence manintain the two groups as homogeneous as possible.
+
+GDN targeting algorithm falls within the 2nd Gen family and it can easily exploit the Ghost Ads framework. Facebook's targeting, however, is more advanced, which is why it has to rely on ITT. 
 
 ![jpg](/images/online_marketing_measurements/timeline_ghost_ads.jpg)
 
-why more sophisticated targeting might give problems
 
 ![jpg](/images/online_marketing_measurements/flow_chart_ghost_ads.jpg)
 
 
+
+
+why more sophisticated targeting might give problems
+Extremely hard to implement
 
 
 ### "Split" testing
@@ -137,6 +154,7 @@ easy to power but hard to measure immediate changes
 Run Campaigns as Experiments
 Targeting as defines the population
 Need to be Democratized
+Block randomization?
 
 
 ## Geo-Level Experimentation
