@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Online Marketing Measurement: Which Half?"
-date: 2018-10-25 8:30:00
+date: 2019-11-25 8:30:00
 categories: experimentation marketing statistics
 description: A quick introduction to measuring the impact of Marketing spend
 image: /images/online_marketing_measurements/wanamaker.jpg
@@ -17,7 +17,7 @@ their return. What makes online marketing different is the unprecedented possibi
 
 ## Attribution & Incrementality
 
-In order to fairly estimate the ROI we need to be able to attribute incremental purchases to the campaign that caused them. We're not interested in reaching people that would purchased organically (i.e. on their own), but to reach people that would have not purchased had they not been reached by our ad. The difference between the two is the one between correlation and causation and can be exploited by targeting mechanisms. If we don't distinguish between organic and incremental purchases, a targeting algorithm would be rewarded for characterizing and targeting users that are more likely to buy, which would be "preaching to the choir".
+In order to fairly estimate the ROAS (Return Of Ad Spend) we need to be able to attribute incremental purchases to the campaign that caused them. We're not interested in reaching people that would purchased organically (i.e. on their own), but to reach people that would have not purchased had they not been reached by our ad. The difference between the two is the one between correlation and causation and can be exploited by targeting mechanisms. If we don't distinguish between organic and incremental purchases, a targeting algorithm would be rewarded for characterizing and targeting users that are more likely to buy, which would be "preaching to the choir".
 
 What we want from our online campaigns is to reach those people that are to be convinced and to convince them to buy our product.
 
@@ -110,67 +110,67 @@ In the next section we'll describe another design that can address this ssue.
 ### “Ghost” Ads
 
 
-Google
-Log “Potential Exposure”
-Ideal Setting
-
-
-
-When the targeting algorithm optimizes the selection of who is served the ad it becomes hard to identify the appropriate control. 
+As conveyed in the previous section, when the targeting algorithm optimizes the selection of who is served the ad it becomes hard to identify the appropriate control. 
 
 ITT design compare groups at the assignment level, but this has limitation since the estimation can have a high level of uncertainty when reach percentage is low in the treatment group, which can result in a watering down of the signal.
 
-Another popular solution to this problem are Predictive Ghost Ads. This approach consist in using the same algorithm used for targeting to identify the users in the control group that "would have been served" the ad and use them as a comparable group to those in the treatment group who are actually served the ad.
+Another popular solution to this problem are [Predictive Ghost Ads](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2620078). This approach, first developed by Google to accurately measure their display ads, consist in using the same algorithm used for targeting to identify the users in the control group that "would have been served" the ad and use them as a comparable group to those in the treatment group who are actually served the ad.
 
 
 ![jpg](/images/online_marketing_measurements/ideal_setting.jpg)
 
+This is an ideal setting since we would be using the same criterion to select the treatment and the control group, however, this can be complicated and hard to implement, specially in more sophisticated ad targeting systems,
 
-In 3rd Generation systems the optimizer will be using features extracted from the site visits and will learn more about the users in the treatment group, potentially introducing bias since the same learning will not be possible for users in the control group. 2nd Generations systems, however, are using only user features and hence manintain the two groups as homogeneous as possible.
-
-GDN targeting algorithm falls within the 2nd Gen family and it can easily exploit the Ghost Ads framework. Facebook's targeting, however, is more advanced, which is why it has to rely on ITT. 
 
 ![jpg](/images/online_marketing_measurements/timeline_ghost_ads.jpg)
+
+
+In 3rd Generation systems the optimizer will be using features extracted from the site visits and will learn more about the users in the treatment group, potentially introducing bias since the same learning will not be possible for users in the control group. The control group would end up being representative of those users targeted for a first touch, but any information from their reaction to their first ad would only be available in the treatment group, introducing potential bias.  2nd Generations systems, however, are using only user features and hence manintain the two groups as homogeneous as possible.
+
+GDN targeting algorithm falls within the 2nd Gen family and it can easily exploit the Ghost Ads framework. Facebook's targeting, however, is more advanced, which is why it has to rely on some form of ITT. 
 
 
 ![jpg](/images/online_marketing_measurements/flow_chart_ghost_ads.jpg)
 
 
+This is extremely hard to implement, but reducing opportunity logging to the first touch would be a good compromise to increase reach in an hybrid Ghost-ITT design.
 
-
-why more sophisticated targeting might give problems
-Extremely hard to implement
 
 
 ### "Split" testing
 
-simple ABs
+Of course even in this setting classic AB tests have their use. Split tests are experiments designed to measure the relative incrementality of some feature of a campaign. While **Absolute Incrementality** is the causal effect of serving the ad, **Relative Incrementality** is the added value of a version of the ad over another. 
 
-easy to power but hard to measure immediate changes
+This tool is useful to iterate quickly over copy changes, images, design, etc. while such tests are easy to power, it may be hard to measure immediate changes (due to the delay in purchases).
 
-
-### Campaign sizing 
-
-Run Campaigns as Experiments
-Targeting as defines the population
-Need to be Democratized
-Block randomization?
 
 
 ## Geo-Level Experimentation
 
-Randomize by DMA
-Aggregate Results
-Large Scale Operation
-Loss
-diff in diff 
-synth control
-Experiment Tracking
-(pre-post)
-http://www.unofficialgoogledatascience.com/2016/06/estimating-causal-effects-using-geo.html
+All these techniques assume a high level of control in the administration of the ads. This is why they are embedded in the echosystem of the vendor (Facebook, Google, etc.). Their success is based on the individual targeting that ensures no spill over and separation between treatment arms.
+
+There is, however, a wide range of advertising channels that can not grant such level of control. Examples include:
+
+- Radio/TV/Out Of Home (OOH) advertising
+- Long term impact (even with current tools is challenging to cohort users for long periods of time)
+
+Since we can't control assignment on an individual unit, in such cases we assign our spend based on location. Since a user can only be in a certain geo at a certain time, and depending on their mobility, we can control who is targeted by a certain campaign and who isn't.
+
+This can be achieved by selecting a few cities, States, or Designated Market Area (DMA) to be targeted and leaving a few others quiet as controls. This is clearly a large scale operation that implies internal coordination and makes a tradeoff between a loss in sales due to the control areas and the understanding of the ROAS.
+
+
+I will not go in depth here on how these type of experiments can be analyzed. Techniques like Differences in Differences (very similar to Google's [Time Based Regression](http://www.unofficialgoogledatascience.com/2016/06/estimating-causal-effects-using-geo.html)) are easy to mplement but often unreliable. [Synthetic Control](https://www.summitllc.us/synthetic-control-method) (such as Google's [Causal Impact](https://google.github.io/CausalImpact/CausalImpact.html) package) type of techniques are more flexible and allow for higher power and stronger inference.
+
 
 
 ## Data Centric Approach
+
+Run Campaigns as Experiments
+Campaign sizing 
+Targeting as defines the population
+Need to be Democratized
+Block randomization?
+
 
 
 validation
@@ -193,25 +193,15 @@ MMM aka just tell me where to spend
 Measure it or don't do it
 
 
-## Resources
-
-- [Field Experiments](https://www.amazon.com/Field-Experiments-Design-Analysis-Interpretation/dp/0393979954)
-- [Mostly Harmless Econometrics](http://a.co/d/9OWYtHM)
-- [Google paper on Ghost Ads](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2620078)
-- [Time Based Regression](http://www.unofficialgoogledatascience.com/2016/06/estimating-causal-effects-using-geo.html)
-https://google.github.io/CausalImpact/CausalImpact.html
-
-https://www.summitllc.us/synthetic-control-method
-
-
 
 
 ## Glossary
 
+- DMA = Designated Market Area 
 - SEM = Search Engine Marketing. Sponsored ads at the top of a Search Engine search.
 - SEO = Search Engine Optimization.
 - ROAS = Return Of Ad Spend
 - MTA = Multi Touch Attribution.
 - MMM = Mixed Media Model.
-- ITT = Intetn To Treat
+- ITT = Intent To Treat
 - ATE =  Average Treatment Effect
