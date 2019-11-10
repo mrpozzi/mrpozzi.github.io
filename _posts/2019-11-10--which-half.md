@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Online Marketing Measurement: Which Half?"
-date: 2019-11-25 8:30:00
+date: 2019-11-10 8:30:00
 categories: experimentation marketing statistics
 description: A quick introduction to measuring the impact of Marketing spend
 image: /images/online_marketing_measurements/wanamaker.jpg
@@ -165,32 +165,16 @@ I will not go in depth here on how these type of experiments can be analyzed. Te
 
 ## Data Centric Approach
 
-Run Campaigns as Experiments
-Campaign sizing 
-Targeting as defines the population
-Need to be Democratized
-Block randomization?
+This post gave a bird's eye view of Marketing Measurement and described few important techniques.
 
+There are other areas which I didn't cover, but are equally important. Efforts like building a reliable bottom up Multi Touch Attribution model (MTA aka the Holy Grail of digital marketing) or a Mixed Media Model (MMM, top down approach to deciding where to spend the next marketing dollar).
 
+The key to build a data driven Digital Marketing Team is to fosted data culture. As much as Data Scientists have a deep understanding of measurement techniques, are the marketers who have the best sense for the data and can be empowered to scale the measurement effort when granted access and training. More eyes on the data will also help data quality, since outages will be reported earlier. 
 
-validation
-External data sources
-Brand Metrics (YouGov)
-Spend Data
-Control Variables
+Allowing marketers to run their campaigns as experiments and empowering them with the understanding of statistical testing will allow for better hypothesis to be tested, to fail faster and adopt new learnings.
 
+This can be ultimately summarized in a "Measure it or don't do it at all" culture, in which dollars are spent only when the return of investment is measurable, which can be achieved only through a democratization of measurement tools.
 
-Fail Fast
-Foster Data Culture
-More Eyes on the Data The Best
-Stakeholders have a better sense for the data
-
-MTA aka the Holy Grail
-
-MMM aka just tell me where to spend
-
-
-Measure it or don't do it
 
 
 
