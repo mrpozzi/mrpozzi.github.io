@@ -73,7 +73,7 @@ In general, when trying to measure absolute incrementality (or lift) we can ask 
 Not only ITT is not influenced from the lack of compliance and measures what is actionable (option 1), but, under few assumptions, it allows us to measure both.
 
 
-![jpg](/images/online_marketing_measurements/ITT_design.jpg)
+![png](/images/online_marketing_measurements/ITT_design.png)
 
 The above picture explains the setting quite clearly. Striped shirts represent high intent users which are bound to convert organically. In the toy example:
 
@@ -90,7 +90,7 @@ Facebook's Lift test tools uses an ITT analysis to measure incrementality. Since
 The split between treatment and control happens at a "Universe" level (i.e. all users in an audience eligible for an auction) and then the ad is shown to a subset of people in the treatment group. Eligibility for auction is logged for both Holdout and Test Group, and so is the impression, but the subset of control users that would have been exposed to the ad is not logged (red triangle in the plot below).
 
 
-![jpg](/images/online_marketing_measurements/LiftFunnel.jpg)
+![png](/images/online_marketing_measurements/LiftFunnel.png)
 
 
 ITT designs are easy to implement and with some easy math we can go from "How many extra sales are caused by trying to show an ad to 100 people" to
@@ -117,12 +117,12 @@ ITT design compare groups at the assignment level, but this has limitation since
 Another popular solution to this problem are [Predictive Ghost Ads](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2620078). This approach, first developed by Google to accurately measure their display ads, consist in using the same algorithm used for targeting to identify the users in the control group that "would have been served" the ad and use them as a comparable group to those in the treatment group who are actually served the ad.
 
 
-![jpg](/images/online_marketing_measurements/ideal_setting.jpg)
+![png](/images/online_marketing_measurements/ideal_setting.png)
 
 This is an ideal setting since we would be using the same criterion to select the treatment and the control group, however, this can be complicated and hard to implement, specially in more sophisticated ad targeting systems,
 
 
-![jpg](/images/online_marketing_measurements/timeline_ghost_ads.jpg)
+![png](/images/online_marketing_measurements/timeline_ghost_ads.png)
 
 
 In 3rd Generation systems the optimizer will be using features extracted from the site visits and will learn more about the users in the treatment group, potentially introducing bias since the same learning will not be possible for users in the control group. The control group would end up being representative of those users targeted for a first touch, but any information from their reaction to their first ad would only be available in the treatment group, introducing potential bias.  2nd Generations systems, however, are using only user features and hence manintain the two groups as homogeneous as possible.
@@ -130,7 +130,7 @@ In 3rd Generation systems the optimizer will be using features extracted from th
 GDN targeting algorithm falls within the 2nd Gen family and it can easily exploit the Ghost Ads framework. Facebook's targeting, however, is more advanced, which is why it has to rely on some form of ITT. 
 
 
-![jpg](/images/online_marketing_measurements/flow_chart_ghost_ads.jpg)
+![png](/images/online_marketing_measurements/flow_chart_ghost_ads.png)
 
 
 This is extremely hard to implement, but reducing opportunity logging to the first touch would be a good compromise to increase reach in an hybrid Ghost-ITT design.
